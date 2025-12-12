@@ -1,0 +1,5 @@
+For more information about how to configure access point policies, see Configuring IAM policies for using access points
+. Access point for directory buckets operations Access point for directory buckets operations are S3 API operations that operate on the accesspoint resource type. For example, CreateAccessPoint
+, DeleteAccessPoint
+, and GetAccessPointPolicy
+. S3 policy actions for access point operations can only be used in IAM identity-based policies, not in bucket policies or access point policies. Access points for directory buckets operations require the Resource element to be the access point ARN in the following example format.

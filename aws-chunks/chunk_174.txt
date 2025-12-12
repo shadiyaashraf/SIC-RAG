@@ -1,0 +1,28 @@
+"Resource": "arn:aws:s3:
+us-west-2
+:
+123456789012
+:accesspoint/
+example-access-point
+/object/*" "Resource": "arn:aws:s3:
+us-west-2
+:
+123456789012
+:accesspoint/
+example-access-point
+/object/
+prefix
+/*" The following access point policy grants the user Akua with account 12345678901 the s3:GetObject permission. This permission allows Akua to perform the GetObject API operation through the access point named example-access-point on all objects in the bucket that's associated with the access point. JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "Allow Akua to get objects through access point", "Effect": "Allow", "Principal": { "AWS": "arn:aws:iam::
+111122223333
+:user/
+Akua
+" }, "Action": [ "s3:GetObject" ], "Resource": "arn:aws:s3:
+us-east-1
+:
+111122223333
+:accesspoint/
+example-access-point
+/object/*" } ]
+} Note
+Not all object operations are supported by access points. For more information, see Access points compatibility with S3 operations
+. Object operations in policies for access points for directory buckets When you use access points for directory buckets to control access to object operations, you can use access point policies.

@@ -1,0 +1,3 @@
+For more information about how to configure policies for Multi-Region Access Point operations, see Multi-Region Access Point policy examples
+. Batch job operations (Batch Operations) job operations are S3 API operations that operate on the job resource type. For example, DescribeJob and CreateJob
+. S3 policy actions for job operations can only be used in IAM identity-based policies, not in bucket policies. Also, job operations require the Resource element in IAM identity-based policies to be the job ARN in the following example format.

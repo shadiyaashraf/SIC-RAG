@@ -1,0 +1,3 @@
+In the next example, W2 does not finish before the start of R1. Therefore, R1 might return color = ruby or color = garnet
+. However, because W1 and W2 finish before the start of R2, R2 returns color = garnet
+. In the last example, W2 begins before W1 has received an acknowledgment. Therefore, these writes are considered concurrent.

@@ -1,0 +1,8 @@
+{ "Version": "2012-10-17", "Statement": [ { "Sid": "Grant PutAccessPointScope", "Principal": "*", "Action": "s3express:CreateSession", "s3express:CreateAccessPoint", "S3Express:PutAccessPointScope""Effect": "Allow", "Resource": "*", } ]
+} When you use access points for directory buckets to control access to bucket operations, see Bucket operations in policies for access points for directory buckets
+; to control access to object operations, see Object operations in policies for access points for directory buckets
+. For more information about how to configure access points for directory buckets policies, see Configuring IAM policies for using access points for directory buckets
+. Object Lambda Access Point operations With Amazon S3 Object Lambda, you can add your own code to Amazon S3 GET
+, LIST
+, and HEAD requests to modify and process data as it is returned to an application. You can make requests through an Object Lambda Access Point, which works the same as making requests through other access points. For more information, see Transforming objects with S3 Object Lambda
+.

@@ -1,0 +1,6 @@
+The following ARN uses the * wildcard character in the relative-ID part of the ARN to identify all objects in the amzn-s3-demo-bucket bucket. arn:aws:s3:::
+amzn-s3-demo-bucket
+/* The following ARN uses * to indicate all S3 buckets and objects. arn:aws:s3:::* The following ARN uses both of the wildcard characters, * and ? , in the relative-ID part. This ARN identifies all objects in buckets such as amzn-s3-demo-example1bucket
+, amzn-s3-demo-example2bucket
+, amzn-s3-demo-example3bucket
+, and so on.

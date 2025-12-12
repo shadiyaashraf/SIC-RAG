@@ -1,0 +1,9 @@
+Bucket operations in policies for access points for directory buckets Permissions granted in an access points for directory buckets policy are effective only if the underlying bucket allows the same permissions. When you use S3 Access Points, you must delegate access control from the bucket to the access point or add the same permissions in the access point policies to the underlying bucket's policy. For more information, see Configuring IAM policies for using access points for directory buckets
+. In access point policies, S3 policy actions for bucket operations require you to use the access point ARN for the Resource element in the following format. "Resource": "arn:aws:s3:
+us-west-2
+:
+123456789012
+:accesspoint/
+example-access-point--usw2-az1--xa-s3
+" The following access point policy grants the user Akua with account 12345678901 the s3:ListBucket permission to perform the ListObjectsV2 API operation through the access point named example-access-point--usw2-az1--xa-s3
+.

@@ -1,0 +1,2 @@
+For information about the AWS SDKs, including how to download and install them, see Tools for AWS
+. Every interaction with Amazon S3 is either authenticated or anonymous. If you are using the AWS SDKs, the libraries compute the signature for authentication from the keys that you provide. For more information about how to make requests to Amazon S3, see Making requests . Amazon S3 REST API The architecture of Amazon S3 is designed to be programming language-neutral, using AWS-supported interfaces to store and retrieve objects.

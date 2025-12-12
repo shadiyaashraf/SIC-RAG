@@ -1,0 +1,1 @@
+For example, to use the PutBucketPolicy API operation, the s3:PutBucketPolicy policy action is required. One-to-one mapping with different names. For example, to use the ListObjectsV2 API operation, the s3:ListBucket policy action is required. One-to-many mapping. For example, to use the HeadObject API operation, the s3:GetObject is required.

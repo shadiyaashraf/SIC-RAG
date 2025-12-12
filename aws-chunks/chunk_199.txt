@@ -1,0 +1,7 @@
+, in the relative-ID part. This ARN identifies all objects in buckets such as amzn-s3-demo-example1bucket
+, amzn-s3-demo-example2bucket
+, amzn-s3-demo-example3bucket
+, and so on. arn:aws:s3:::
+amzn-s3-demo-example
+? bucket
+/* Policy variables for resource ARNs You can use policy variables in Amazon S3 ARNs. At policy-evaluation time, these predefined variables are replaced by their corresponding values.

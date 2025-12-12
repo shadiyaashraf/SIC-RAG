@@ -1,0 +1,7 @@
+JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "AllowDescribingBatchOperationJob", "Effect": "Allow", "Action": [ "s3:DescribeJob" ], "Resource": "arn:aws:s3:*:
+111122223333
+:job/
+example-job
+" } ]
+} S3 Storage Lens configuration operations For more information about how to configure S3 Storage Lens configuration operations, see Setting Amazon S3 Storage Lens permissions
+. Account operations Account operations are S3 API operations that operate on the account level. For example, GetPublicAccessBlock (for account). Account isn't a resource type defined by Amazon S3. S3 policy actions for account operations can only be used in IAM identity-based policies, not in bucket policies.

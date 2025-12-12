@@ -1,0 +1,13 @@
+S3 policy actions for access point operations can only be used in IAM identity-based policies, not in bucket policies or access point policies. Access points for directory buckets operations require the Resource element to be the access point ARN in the following example format. "Resource": "arn:aws:s3:
+us-west-2
+:
+123456789012
+:accesspoint/
+example-access-point--usw2-az1--xa-s3
+" The following IAM identity-based policy grants the s3express:GetAccessPointPolicy permission to perform the GetAccessPointPolicy API operation on the access point named example-access-point--usw2-az1--xa-s3
+. JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "GrantPermissionToRetrieveTheAccessPointPolicyOfAccessPointExampleAccessPointUsw2Az1XaS3", "Effect": "Allow", "Action": [ "s3express:CreateSession","s3express:GetAccessPointPolicy" ], "Resource": "arn:aws:s3:*:
+111122223333
+:accesspoint/
+example-access-point
+" } ]
+} The following IAM identity-based policy grants the s3express:CreateAccessPoint permission to create an access points for directory buckets. { "Version": "2012-10-17", "Statement": [ { "Sid": "Grant CreateAccessPoint.

@@ -1,0 +1,4 @@
+For anonymous users, these two methods are equivalent. For more information, see All principals in the IAM User Guide
+. You cannot use a wildcard to match part of a principal name or ARN. Important
+In AWS access control policies, the Principals "*" and {
+"AWS": "*"} behave identically. Restrict resource permissions You can also use resource policy to restrict access to resources that would otherwise be available to IAM principals.

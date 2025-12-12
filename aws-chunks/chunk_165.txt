@@ -1,0 +1,9 @@
+"Resource": "arn:aws:s3:::
+amzn-s3-demo-bucket
+" The following bucket policy grants the user Akua with account 12345678901 the s3:ListBucket permission to perform the ListObjectsV2 API operation and list objects in an S3 bucket. JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "Allow Akua to list objects in the bucket", "Effect": "Allow", "Principal": { "AWS": "arn:aws:iam::
+111122223333
+:user/Akua" }, "Action": [ "s3:ListBucket" ], "Resource": "arn:aws:s3:::
+amzn-s3-demo-bucket
+" } ]
+} Bucket operations in policies for access points for general purpose buckets Permissions granted in an access point for general purpose buckets policy are effective only if the underlying bucket allows the same permissions. When you use S3 Access Points, you must delegate access control from the bucket to the access point or add the same permissions in the access point policies to the underlying bucket's policy. For more information, see Configuring IAM policies for using access points
+. In access point policies, S3 policy actions for bucket operations require you to use the access point ARN for the Resource element in the following format.

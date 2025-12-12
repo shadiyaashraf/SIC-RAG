@@ -1,0 +1,4 @@
+In a policy, use the Amazon Resource Name (ARN) of the bucket, object, access point, or job to identify the resource. To see a complete list of Amazon S3 resource types and their ARNs, see Resources defined by Amazon S3 in the Service Authorization Reference
+. To learn with which actions you can specify the ARN of each resource, see Actions defined by Amazon S3
+. For more information about the permissions to S3 API operations by S3 resource types, see Required permissions for Amazon S3 API operations
+. Wildcard characters in resource ARNs You can use wildcard characters as part of the resource ARN.

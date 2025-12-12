@@ -1,0 +1,3 @@
+Multi-Region Access Point operations A Multi-Region Access Point provides a global endpoint that applications can use to fulfill requests from S3 buckets that are located in multiple AWS Region. You can use a Multi-Region Access Point to build multi-Region applications with the same architecture that's used in a single Region, and then run those applications anywhere in the world. For more information, see Managing multi-Region traffic with Multi-Region Access Points
+. For more information about how to configure policies for Multi-Region Access Point operations, see Multi-Region Access Point policy examples
+. Batch job operations (Batch Operations) job operations are S3 API operations that operate on the job resource type.

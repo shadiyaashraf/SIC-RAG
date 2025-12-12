@@ -1,0 +1,11 @@
+Access point for general purpose bucket operations Access point operations are S3 API operations that operate on the accesspoint resource type. For example, CreateAccessPoint
+, DeleteAccessPoint
+, and GetAccessPointPolicy
+. S3 policy actions for access point operations can only be used in IAM identity-based policies, not in bucket policies or access point policies. Access points operations require the Resource element to be the access point ARN in the following example format. "Resource": "arn:aws:s3:
+us-west-2
+:
+123456789012
+:accesspoint/
+example-access-point
+" The following IAM identity-based policy grants the s3:GetAccessPointPolicy permission to perform the GetAccessPointPolicy API operation on the S3 access point named example-access-point
+.

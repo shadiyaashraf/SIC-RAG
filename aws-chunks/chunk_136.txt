@@ -1,0 +1,5 @@
+If you are a new Amazon S3 customer, you can get started with Amazon S3 for free. For more information, see AWS free tier
+. To see your bill, go to the Billing and Cost Management Dashboard in the AWS Billing and Cost Management console
+. To learn more about AWS account billing, see the AWS Billing User Guide
+. If you have questions concerning AWS billing and AWS accounts, contact AWS Support
+.

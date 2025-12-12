@@ -1,0 +1,4 @@
+For example, if you configure your bucket as a website, you want all the objects in the bucket to be publicly accessible. "Principal":"*" "Principal":
+{
+"AWS":"*"} Using "Principal": "*" with an Allow effect in a resource-based policy allows anyone, even if theyâre not signed in to AWS, to access your resource. Using "Principal" : { "AWS" : "*" } with an Allow effect in a resource-based policy allows any root user, IAM user, assumed-role session, or federated user in any account in the same partition to access your resource. For anonymous users, these two methods are equivalent. For more information, see All principals in the IAM User Guide
+.

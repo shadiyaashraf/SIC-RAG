@@ -1,0 +1,12 @@
+For example, GetObject
+, PutObject
+, and DeleteObject
+. S3 policy actions for object operations require the Resource element in policies to be the S3 object ARN in the following example formats. "Resource": "arn:aws:s3:::
+amzn-s3-demo-bucket
+/*" "Resource": "arn:aws:s3:::
+amzn-s3-demo-bucket
+/
+prefix
+/*" Note
+The object ARN must contain a forward slash after the bucket name, as seen in the previous examples. The following bucket policy grants the user Akua with account 12345678901 the s3:PutObject permission. This permission allows Akua to use the PutObject API operation to upload objects to the S3 bucket named amzn-s3-demo-bucket
+.

@@ -1,0 +1,4 @@
+Many-to-one mapping. For example, to use the ListObjectsV2 or HeadBucket API operations, the s3:ListBucket policy action is required. To see a list of Amazon S3 actions for use in policies, see Actions defined by Amazon S3 in the Service Authorization Reference
+. For a complete list of Amazon S3 API operations, see Amazon S3 API Actions in the Amazon Simple Storage Service API Reference
+. For more information about the permissions to S3 API operations by S3 resource types, see Required permissions for Amazon S3 API operations
+.

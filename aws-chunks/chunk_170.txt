@@ -1,0 +1,7 @@
+JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "AllowAkuaToListObjectsInTheBucketThroughAccessPoint", "Effect": "Allow", "Principal": { "AWS": "arn:aws:iam::111122223333:user/Akua" }, "Action": [ "s3:ListBucket" ], "Resource": "arn:aws:s3express:us-east-1:111122223333:accesspoint/example-access-point-usw2-az1-xa-s3" } ]
+} Note
+Not all bucket operations are supported by access points for directory buckets. For more information, see Object operations for access points for directory buckets
+. Object operations Object operations are S3 API operations that act upon the object resource type. For example, GetObject
+, PutObject
+, and DeleteObject
+. S3 policy actions for object operations require the Resource element in policies to be the S3 object ARN in the following example formats.

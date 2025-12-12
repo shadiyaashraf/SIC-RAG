@@ -1,0 +1,2 @@
+If you do not exceed that capacity, you pay as though you used it all. Amazon S3 charges you only for what you actually use, with no hidden fees and no overage charges. This model gives you a variable-cost service that can grow with your business while giving you the cost advantages of the AWS infrastructure. For more information, see Amazon S3 Pricing
+. When you sign up for AWS, your AWS account is automatically signed up for all services in AWS, including Amazon S3.

@@ -1,0 +1,6 @@
+For more information about the security and privacy benefits of using Amazon CloudFront, see Configuring secure access and restricting access to content
+. Resource-based policy examples for Amazon S3 To view policy examples for Amazon S3 buckets, see Bucket policies for Amazon S3
+. To view policy examples for access points, see Configuring IAM policies for using access points
+. Policy actions for Amazon S3 Supports policy actions: Yes Administrators can use AWS JSON policies to specify who has access to what. That is, which principal can perform actions on what resources
+, and under what conditions
+.

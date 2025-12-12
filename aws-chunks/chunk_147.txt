@@ -1,0 +1,16 @@
+The following are examples of specifying Principal
+. For more information, see Principal in the IAM User Guide
+. Grant permissions to an AWS account To grant permissions to an AWS account, identify the account using the following format. "AWS":"
+account-ARN
+" The following are examples. "Principal":
+{
+"AWS":"arn:aws:iam::
+AccountIDWithoutHyphens
+:root"} "Principal":
+{
+"AWS":["arn:aws:iam::
+AccountID1WithoutHyphens
+:root","arn:aws:iam::
+AccountID2WithoutHyphens
+:root"]} Note
+The examples above grant permissions to the root user, which delegates permissions to the account level.

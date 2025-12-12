@@ -1,0 +1,10 @@
+For a complete list of Amazon S3 API operations, see Amazon S3 API Actions in the Amazon Simple Storage Service API Reference
+. For more information about the permissions to S3 API operations by S3 resource types, see Required permissions for Amazon S3 API operations
+. Policy actions in Amazon S3 use the following prefix before the action: s3 To specify multiple actions in a single statement, separate them with commas. "Action": [ "s3:
+action1
+", "s3:
+action2
+" ] Bucket operations Bucket operations are S3 API operations that operate on the bucket resource type. For example, CreateBucket
+, ListObjectsV2
+, and PutBucketPolicy
+.

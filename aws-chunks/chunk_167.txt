@@ -1,0 +1,15 @@
+This permission allows Akua to list the objects in the bucket that's associated with example-access-point
+. JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "AllowAkuaToListObjectsInBucketThroughAccessPoint", "Effect": "Allow", "Principal": { "AWS": "arn:aws:iam::
+111122223333
+:user/
+Akua
+" }, "Action": [ "s3:ListBucket" ], "Resource": "arn:aws:s3:
+us-west-2
+:
+111122223333
+:accesspoint/
+example-access-point
+" } ]
+} Note
+Not all bucket operations are supported by access points for general purpose buckets. For more information, see Access points compatibility with S3 operations
+. Bucket operations in policies for access points for directory buckets Permissions granted in an access points for directory buckets policy are effective only if the underlying bucket allows the same permissions. When you use S3 Access Points, you must delegate access control from the bucket to the access point or add the same permissions in the access point policies to the underlying bucket's policy.

@@ -1,0 +1,8 @@
+For more information about the permissions to S3 API operations by S3 resource types, see Required permissions for Amazon S3 API operations
+. Wildcard characters in resource ARNs You can use wildcard characters as part of the resource ARN. You can use the wildcard characters (
+* and ?
+) within any ARN segment (the parts separated by colons). An asterisk (
+*
+) represents any combination of zero or more characters, and a question mark (
+?
+)

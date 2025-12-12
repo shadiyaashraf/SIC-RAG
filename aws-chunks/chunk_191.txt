@@ -1,0 +1,4 @@
+Policy resources for Amazon S3 Supports policy resources: Yes Administrators can use AWS JSON policies to specify who has access to what. That is, which principal can perform actions on what resources
+, and under what conditions
+. The Resource JSON policy element specifies the object or objects to which the action applies. As a best practice, specify a resource using its Amazon Resource Name (ARN)
+. For actions that don't support resource-level permissions, use a wildcard (*) to indicate that the statement applies to all resources.

@@ -1,0 +1,7 @@
+For example, s3:GetObject accesses example-resource-1 and example-resource-2
+, so a principal must have permissions to access both resources. To specify multiple resources in a single statement, separate the ARNs with commas, as shown in the following example. "Resource": [ "
+example-resource-1
+", "
+example-resource-2
+" Resources in Amazon S3 are buckets, objects, access points, or jobs. In a policy, use the Amazon Resource Name (ARN) of the bucket, object, access point, or job to identify the resource. To see a complete list of Amazon S3 resource types and their ARNs, see Resources defined by Amazon S3 in the Service Authorization Reference
+.

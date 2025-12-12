@@ -1,0 +1,5 @@
+Please refer to your browser's Help pages for instructions. Document Conventions
+Amazon S3 Object Lambda availability change ============================== How Amazon S3 works with IAM
+Before you use IAM to manage access to Amazon S3, learn what IAM features are available to use with Amazon S3. IAM features you can use with Amazon S3 IAM feature Amazon S3 support Identity-based policies Yes Resource-based policies Yes Policy actions Yes Policy resources Yes Policy condition keys (service-specific) Yes ACLs Yes ABAC (tags in policies) Partial Temporary credentials Yes Forward access sessions (FAS) Yes Service roles Yes Service-linked roles Partial To get a high-level view of how Amazon S3 and other AWS services work with most IAM features, see AWS services that work with IAM in the IAM User Guide
+. For more information about the permissions to S3 API operations by S3 resource types, see Required permissions for Amazon S3 API operations
+. Identity-based policies for Amazon S3 Supports identity-based policies: Yes Identity-based policies are JSON permissions policy documents that you can attach to an identity, such as an IAM user, group of users, or role.

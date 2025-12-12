@@ -1,0 +1,5 @@
+When you grant anonymous access, anyone in the world can access your bucket. We highly recommend that you never grant any kind of anonymous write access to your S3 bucket. To grant permission to everyone, also referred as anonymous access, you set the wildcard (
+"*"
+) as the Principal value. For example, if you configure your bucket as a website, you want all the objects in the bucket to be publicly accessible. "Principal":"*" "Principal":
+{
+"AWS":"*"} Using "Principal": "*" with an Allow effect in a resource-based policy allows anyone, even if theyâre not signed in to AWS, to access your resource.

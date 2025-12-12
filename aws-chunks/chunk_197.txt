@@ -1,0 +1,3 @@
+You can use multiple * or ? characters in each segment. However, a wildcard character can't span segments. The following ARN uses the * wildcard character in the relative-ID part of the ARN to identify all objects in the amzn-s3-demo-bucket bucket. arn:aws:s3:::
+amzn-s3-demo-bucket
+/* The following ARN uses * to indicate all S3 buckets and objects.

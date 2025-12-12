@@ -1,0 +1,5 @@
+Principals can include accounts, users, roles, federated users, or AWS services. To enable cross-account access, you can specify an entire account or IAM entities in another account as the principal in a resource-based policy. For more information, see Cross account resource access in IAM in the IAM User Guide
+. The Amazon S3 service supports bucket policies
+, access points policies
+, and access grants
+: Bucket policies are resource-based policies that are attached to an Amazon S3 bucket. A bucket policy defines which principals can perform actions on the bucket.

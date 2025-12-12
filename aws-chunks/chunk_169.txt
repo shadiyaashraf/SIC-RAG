@@ -1,0 +1,12 @@
+In access point policies, S3 policy actions for bucket operations require you to use the access point ARN for the Resource element in the following format. "Resource": "arn:aws:s3:
+us-west-2
+:
+123456789012
+:accesspoint/
+example-access-point--usw2-az1--xa-s3
+" The following access point policy grants the user Akua with account 12345678901 the s3:ListBucket permission to perform the ListObjectsV2 API operation through the access point named example-access-point--usw2-az1--xa-s3
+. This permission allows Akua to list the objects in the bucket that's associated with example-access-point--usw2-az1--xa-s3
+. JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "AllowAkuaToListObjectsInTheBucketThroughAccessPoint", "Effect": "Allow", "Principal": { "AWS": "arn:aws:iam::111122223333:user/Akua" }, "Action": [ "s3:ListBucket" ], "Resource": "arn:aws:s3express:us-east-1:111122223333:accesspoint/example-access-point-usw2-az1-xa-s3" } ]
+} Note
+Not all bucket operations are supported by access points for directory buckets. For more information, see Object operations for access points for directory buckets
+.

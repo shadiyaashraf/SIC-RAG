@@ -1,0 +1,23 @@
+When you use access point policies, S3 policy actions for object operations require you to use the access point ARN for the Resource element in the following format: arn:aws:s3:
+region
+:
+account-id
+:accesspoint/
+access-point-name
+/object/
+resource
+. For object operations that use access points, you must include the /object/ value after the whole access point ARN in the Resource element. Here are some examples. "Resource": "arn:aws:s3:
+us-west-2
+:
+123456789012
+:accesspoint/
+example-access-point
+/object/*" "Resource": "arn:aws:s3:
+us-west-2
+:
+123456789012
+:accesspoint/
+example-access-point
+/object/
+prefix
+/*" The following access point policy grants the user Akua with account 12345678901 the s3:GetObject permission. This permission allows Akua to perform the GetObject API operation through the access point named example-access-point on all objects in the bucket that's associated with the access point.

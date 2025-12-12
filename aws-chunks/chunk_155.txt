@@ -1,0 +1,6 @@
+The following example blocks access if a secure transport protocol isnât used: JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "DenyBucketAccessIfSTPNotUsed", "Effect": "Deny", "Principal": "*", "Action": "s3:*", "Resource": "arn:aws:s3:::
+amzn-s3-demo-bucket
+", "Condition": { "Bool": { "aws:SecureTransport": "false" } } } ]
+} Using "Principal": "*" so that this restriction applies to everyone is a best practice for this policy, instead of attempting to deny access only to specific accounts or principals using this method. Require access through CloudFront URLs You can require that your users access your Amazon S3 content only by using CloudFront URLs instead of Amazon S3 URLs. To do this, create a CloudFront origin access control (OAC). Then, change the permissions on your S3 data. In your bucket policy, you can set CloudFront as the Principal as follows: "Principal":
+{
+"Service":"cloudfront.amazonaws.com"} Use a Condition element in the policy to allow CloudFront to access the bucket only when the request is on behalf of the CloudFront distribution that contains the S3 origin.

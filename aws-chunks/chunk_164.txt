@@ -1,0 +1,15 @@
+"Action": [ "s3:
+action1
+", "s3:
+action2
+" ] Bucket operations Bucket operations are S3 API operations that operate on the bucket resource type. For example, CreateBucket
+, ListObjectsV2
+, and PutBucketPolicy
+. S3 policy actions for bucket operations require the Resource element in bucket policies or IAM identity-based policies to be the S3 bucket type Amazon Resource Name (ARN) identifier in the following example format. "Resource": "arn:aws:s3:::
+amzn-s3-demo-bucket
+" The following bucket policy grants the user Akua with account 12345678901 the s3:ListBucket permission to perform the ListObjectsV2 API operation and list objects in an S3 bucket. JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "Allow Akua to list objects in the bucket", "Effect": "Allow", "Principal": { "AWS": "arn:aws:iam::
+111122223333
+:user/Akua" }, "Action": [ "s3:ListBucket" ], "Resource": "arn:aws:s3:::
+amzn-s3-demo-bucket
+" } ]
+} Bucket operations in policies for access points for general purpose buckets Permissions granted in an access point for general purpose buckets policy are effective only if the underlying bucket allows the same permissions.

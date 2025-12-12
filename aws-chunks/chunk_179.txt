@@ -1,0 +1,16 @@
+Access points operations require the Resource element to be the access point ARN in the following example format. "Resource": "arn:aws:s3:
+us-west-2
+:
+123456789012
+:accesspoint/
+example-access-point
+" The following IAM identity-based policy grants the s3:GetAccessPointPolicy permission to perform the GetAccessPointPolicy API operation on the S3 access point named example-access-point
+. JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "GrantPermissionToRetrieveTheAccessPointPolicyOfAccessPointExampleAccessPoint", "Effect": "Allow", "Action": [ "s3:GetAccessPointPolicy" ], "Resource": "arn:aws:s3:*:
+123456789012
+:accesspoint/
+example-access-point
+" } ]
+} When you use Access Points, to control access to bucket operations, see Bucket operations in policies for access points for general purpose buckets
+; to control access to object operations, see Object operations in access point policies
+. For more information about how to configure access point policies, see Configuring IAM policies for using access points
+. Access point for directory buckets operations Access point for directory buckets operations are S3 API operations that operate on the accesspoint resource type.

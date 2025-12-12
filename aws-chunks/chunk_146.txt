@@ -1,0 +1,4 @@
+Access grants are a simplified model for defining access permissions to data in Amazon S3 by prefix, bucket, or object. For information about S3 Access Grants, see Managing access with S3 Access Grants
+. Principals for bucket policies The Principal element specifies the user, account, service, or other entity that is either allowed or denied access to a resource. The following are examples of specifying Principal
+. For more information, see Principal in the IAM User Guide
+.

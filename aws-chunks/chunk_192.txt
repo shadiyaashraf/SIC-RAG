@@ -1,0 +1,3 @@
+As a best practice, specify a resource using its Amazon Resource Name (ARN)
+. For actions that don't support resource-level permissions, use a wildcard (*) to indicate that the statement applies to all resources. "Resource": "*" Some Amazon S3 API actions support multiple resources. For example, s3:GetObject accesses example-resource-1 and example-resource-2
+, so a principal must have permissions to access both resources. To specify multiple resources in a single statement, separate the ARNs with commas, as shown in the following example.

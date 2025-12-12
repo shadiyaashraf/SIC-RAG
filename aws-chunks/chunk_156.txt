@@ -1,0 +1,10 @@
+Then, change the permissions on your S3 data. In your bucket policy, you can set CloudFront as the Principal as follows: "Principal":
+{
+"Service":"cloudfront.amazonaws.com"} Use a Condition element in the policy to allow CloudFront to access the bucket only when the request is on behalf of the CloudFront distribution that contains the S3 origin. "Condition": { "StringEquals": { "AWS:SourceArn": "arn:aws:cloudfront::
+111122223333
+:distribution/
+CloudFront-distribution-ID
+" } } For more information about requiring S3 access through CloudFront URLs, see Restricting access to an Amazon Simple Storage Service origin in the Amazon CloudFront Developer Guide
+. For more information about the security and privacy benefits of using Amazon CloudFront, see Configuring secure access and restricting access to content
+. Resource-based policy examples for Amazon S3 To view policy examples for Amazon S3 buckets, see Bucket policies for Amazon S3
+.

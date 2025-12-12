@@ -1,0 +1,3 @@
+To restrict Amazon S3 data access to a private network, you can also configure any access point to accept requests only from a virtual private cloud (VPC). For more information about access points for general purpose buckets, see Managing access to shared datasets with access points
+. For more information about access points for directory buckets, see Managing access to shared datasets in directory buckets with access points
+. Access control lists (ACLs) You can use ACLs to grant read and write permissions to authorized users for individual general purpose buckets and objects. Each general purpose bucket and object has an ACL attached to it as a subresource.

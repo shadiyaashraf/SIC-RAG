@@ -1,0 +1,6 @@
+Important
+In AWS access control policies, the Principals "*" and {
+"AWS": "*"} behave identically. Restrict resource permissions You can also use resource policy to restrict access to resources that would otherwise be available to IAM principals. Use a Deny statement to prevent access. The following example blocks access if a secure transport protocol isnât used: JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "DenyBucketAccessIfSTPNotUsed", "Effect": "Deny", "Principal": "*", "Action": "s3:*", "Resource": "arn:aws:s3:::
+amzn-s3-demo-bucket
+", "Condition": { "Bool": { "aws:SecureTransport": "false" } } } ]
+} Using "Principal": "*" so that this restriction applies to everyone is a best practice for this policy, instead of attempting to deny access only to specific accounts or principals using this method. Require access through CloudFront URLs You can require that your users access your Amazon S3 content only by using CloudFront URLs instead of Amazon S3 URLs.

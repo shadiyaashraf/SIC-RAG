@@ -1,0 +1,4 @@
+Account isn't a resource type defined by Amazon S3. S3 policy actions for account operations can only be used in IAM identity-based policies, not in bucket policies. Also, account operations require the Resource element in IAM identity-based policies to be "*"
+. The following IAM identity-based policy grants the s3:GetAccountPublicAccessBlock permission to perform the account-level GetPublicAccessBlock API operation and retrieve the account-level Public Access Block settings. JSON { "Version":"2012-10-17", "Statement":[ { "Sid":"AllowRetrievingTheAccountLevelPublicAccessBlockSettings", "Effect":"Allow", "Action":[ "s3:GetAccountPublicAccessBlock" ], "Resource":[ "*" ] } ]
+} Policy examples for Amazon S3 To view examples of Amazon S3 identity-based policies, see Identity-based policies for Amazon S3
+.

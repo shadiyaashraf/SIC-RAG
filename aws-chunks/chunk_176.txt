@@ -1,0 +1,27 @@
+For object operations that use access points, you must include the /object/ value after the whole access point ARN in the Resource element. Here are some examples. "Resource": "arn:aws:s3express:
+us-west-2
+:
+123456789012
+:accesspoint/
+example-access-point--usw2-az1--xa-s3
+/object/*" "Resource": "arn:aws:s3express:
+us-west-2
+:
+123456789012
+:accesspoint/
+example-access-point--usw2-az1--xa-s3
+/object/
+prefix
+/*" The following access point policy grants the user Akua with account 12345678901 the s3:GetObject permission. This permission allows Akua to perform the GetObject API operation through the access point named example-access-point--usw2-az1--xa-s3 on all objects in the bucket that's associated with the access point. { "Version": "2012-10-17", "Statement": [ { "Sid": "Allow Akua to get objects through access point", "Effect": "Allow", "Principal": { "AWS": "arn:aws:iam::
+12345678901
+:user/
+Akua
+" }, "Action": "s3express:CreateSession","s3:GetObject" "Resource": "arn:aws:s3:
+us-west-2
+:
+123456789012
+:accesspoint/
+example-access-point--usw2-az1--xa-s3
+/object/*" } ]
+} Note
+Not all object operations are supported by access points for directory buckets.

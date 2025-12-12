@@ -1,0 +1,5 @@
+The Amazon S3 service supports bucket policies
+, access points policies
+, and access grants
+: Bucket policies are resource-based policies that are attached to an Amazon S3 bucket. A bucket policy defines which principals can perform actions on the bucket. Access point policies are resource-based polices that are evaluated in conjunction with the underlying bucket policy. Access grants are a simplified model for defining access permissions to data in Amazon S3 by prefix, bucket, or object. For information about S3 Access Grants, see Managing access with S3 Access Grants
+.

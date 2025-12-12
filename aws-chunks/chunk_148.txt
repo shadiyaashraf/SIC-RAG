@@ -1,0 +1,23 @@
+"AWS":"
+account-ARN
+" The following are examples. "Principal":
+{
+"AWS":"arn:aws:iam::
+AccountIDWithoutHyphens
+:root"} "Principal":
+{
+"AWS":["arn:aws:iam::
+AccountID1WithoutHyphens
+:root","arn:aws:iam::
+AccountID2WithoutHyphens
+:root"]} Note
+The examples above grant permissions to the root user, which delegates permissions to the account level. However, IAM policies are still required on the specific roles and users in the account. Grant permissions to an IAM user To grant permission to an IAM user within your account, you must provide an "AWS":"
+user-ARN
+" name-value pair. "Principal":
+{
+"AWS":"arn:aws:iam::
+account-number-without-hyphens
+:user/
+username
+"} For detailed examples that provide step-by-step instructions, see Example 1: Bucket owner granting its users bucket permissions and Example 3: Bucket owner granting permissions to objects it does not own
+.

@@ -1,0 +1,17 @@
+The following bucket policy grants the user Akua with account 12345678901 the s3:PutObject permission. This permission allows Akua to use the PutObject API operation to upload objects to the S3 bucket named amzn-s3-demo-bucket
+. JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "Allow Akua to upload objects", "Effect": "Allow", "Principal": { "AWS": "arn:aws:iam::
+111122223333
+:user/
+Akua
+" }, "Action": [ "s3:PutObject" ], "Resource": "arn:aws:s3:::
+amzn-s3-demo-bucket
+/*" } ]
+} Object operations in access point policies When you use S3 Access Points to control access to object operations, you can use access point policies. When you use access point policies, S3 policy actions for object operations require you to use the access point ARN for the Resource element in the following format: arn:aws:s3:
+region
+:
+account-id
+:accesspoint/
+access-point-name
+/object/
+resource
+. For object operations that use access points, you must include the /object/ value after the whole access point ARN in the Resource element.

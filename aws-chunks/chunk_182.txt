@@ -1,0 +1,11 @@
+JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "GrantPermissionToRetrieveTheAccessPointPolicyOfAccessPointExampleAccessPointUsw2Az1XaS3", "Effect": "Allow", "Action": [ "s3express:CreateSession","s3express:GetAccessPointPolicy" ], "Resource": "arn:aws:s3:*:
+111122223333
+:accesspoint/
+example-access-point
+" } ]
+} The following IAM identity-based policy grants the s3express:CreateAccessPoint permission to create an access points for directory buckets. { "Version": "2012-10-17", "Statement": [ { "Sid": "Grant CreateAccessPoint. ", "Principal": "*", "Action": "s3express:CreateSession", "s3express:CreateAccessPoint""Effect": "Allow", "Resource": "*" } ]
+} The following IAM identity-based policy grants the s3express:PutAccessPointScope permission to create access point scope for access points for directory buckets. { "Version": "2012-10-17", "Statement": [ { "Sid": "Grant PutAccessPointScope", "Principal": "*", "Action": "s3express:CreateSession", "s3express:CreateAccessPoint", "S3Express:PutAccessPointScope""Effect": "Allow", "Resource": "*", } ]
+} When you use access points for directory buckets to control access to bucket operations, see Bucket operations in policies for access points for directory buckets
+; to control access to object operations, see Object operations in policies for access points for directory buckets
+. For more information about how to configure access points for directory buckets policies, see Configuring IAM policies for using access points for directory buckets
+.

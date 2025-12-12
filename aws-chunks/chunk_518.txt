@@ -1,0 +1,2 @@
+SCPs and RCPs are types of organization policies that you can use to manage permissions in your organization at the AWS organization, organizational unit (OU), or account level. However, SCPs and RCPs alone are insufficient to grant permissions to principals and resources in your organization. No permissions are granted by SCPs and RCPs. To grant permissions, you must attach identity-based or resource-based policies to IAM users, IAM roles, or the resources in your accounts. For more information, see SRA building blocks â AWS Organizations, accounts, and guardrails
+.

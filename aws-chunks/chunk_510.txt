@@ -1,0 +1,2 @@
+You can also use this information to refine your IAM policies to better adhere to least-privilege permissions. For more information, see Refine permissions in AWS using last accessed information
+. Use conditions in IAM policies to further restrict access You can specify conditions under which a policy statement is in effect. That way, you can grant access to actions and resources, but only if the access request meets specific conditions. For example, you can write a policy condition to specify that all requests must be sent using TLS.

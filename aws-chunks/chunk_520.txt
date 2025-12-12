@@ -1,0 +1,2 @@
+For example, you could allow developers to create and manage roles for their workloads. When you delegate permissions to others, use permissions boundaries to set the maximum permissions that you delegate. A permissions boundary is an advanced feature for using a managed policy to set the maximum permissions that an identity-based policy can grant to an IAM role. A permissions boundary does not grant permissions on its own. For more information, see Permissions boundaries for IAM entities
+.

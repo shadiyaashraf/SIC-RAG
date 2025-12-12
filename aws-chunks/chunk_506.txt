@@ -1,0 +1,3 @@
+Keep in mind that AWS managed policies might not grant least-privilege permissions for your specific use cases because they are available for use by all AWS customers. As a result, we recommend that you reduce permissions further by defining customer managed policies that are specific to your use cases. For more information, see AWS managed policies
+. For more information about AWS managed policies that are designed for specific job functions, see AWS managed policies for job functions
+. Use IAM Access Analyzer to generate least-privilege policies based on access activity To grant only the permissions required to perform a task, you can generate policies based on your access activity that is logged in AWS CloudTrail.

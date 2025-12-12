@@ -1,0 +1,2 @@
+For more information, see IAM JSON policy elements: Condition
+. Verify public and cross-account access to resources with IAM Access Analyzer Before you grant permissions for public or cross-account access in AWS, we recommend that you verify if such access is required. You can use IAM Access Analyzer to help you preview and analyze public and cross-account access for supported resource types. You do this by reviewing the findings that IAM Access Analyzer generates. These findings help you verify that your resource access controls grant the access that you expect.

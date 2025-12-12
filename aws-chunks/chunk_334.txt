@@ -1,0 +1,5 @@
+Paste the following code into the index.mjs tab, replacing the code that Lambda created. export const handler = async (event, context) => { const length = event.length; const width = event.width; let area = calculateArea(length, width); console.log(`The area is $
+{
+area}`); console.log('CloudWatch log group: ', context.logGroupName); let data = { "area": area, }; return JSON.stringify(data); function calculateArea(length, width) { return length * width; }
+}; In the DEPLOY section, choose Deploy to update your function's code: Understanding your function code Before you move to the next step, let's take a moment to look at the function code and understand some key Lambda concepts. The Lambda handler: Your Lambda function contains a Node.js function named handler
+. A Lambda function in Node.js can contain more than one Node.js function, but the handler function is always the entry point to your code. When your function is invoked, Lambda runs this method.

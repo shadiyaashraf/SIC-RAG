@@ -1,0 +1,9 @@
+To invoke your function over IPv6, use Lambda's public dual-stack endpoints
+. Dual-stack endpoints support both IPv4 and IPv6. Lambda dual-stack endpoints use the following syntax:
+protocol
+://lambda. us-east-1
+.api.aws
+You can also use Lambda function URLs to invoke functions over IPv6. Function URL endpoints have the following format:
+https://
+url-id
+.lambda-url.

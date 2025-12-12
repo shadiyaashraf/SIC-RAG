@@ -1,0 +1,2 @@
+Powerful, flexible authentication mechanisms, such as AWS Identity and Access Management policies, Lambda authorizer functions, and Amazon Cognito user pools. Canary release deployments for safely rolling out changes. CloudTrail logging and monitoring of API usage and API changes. CloudWatch access logging and execution logging, including the ability to set alarms. For more information, see Monitor REST API execution with Amazon CloudWatch metrics and Monitor WebSocket API execution with CloudWatch metrics
+.

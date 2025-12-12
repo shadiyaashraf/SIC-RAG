@@ -1,0 +1,3 @@
+Sign in as the user with administrative access To sign in with your IAM Identity Center user, use the sign-in URL that was sent to your email address when you created the IAM Identity Center user. For help signing in using an IAM Identity Center user, see Signing in to the AWS access portal in the AWS Sign-In User Guide
+. Assign access to additional users In IAM Identity Center, create a permission set that follows the best practice of applying least-privilege permissions. For instructions, see Create a permission set in the AWS IAM Identity Center User Guide
+. Assign users to a group, and then assign single sign-on access to the group.

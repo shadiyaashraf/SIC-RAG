@@ -1,0 +1,4 @@
+See scheduled task examples for details. Stream processing
+: Process real-time data streams for analytics and monitoring. See Kinesis Data Streams for details. Web applications
+: Build scalable web apps that automatically adjust to demand. Mobile backends
+: Create secure API backends for mobile and web applications.

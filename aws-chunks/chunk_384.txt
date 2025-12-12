@@ -1,0 +1,6 @@
+For more information, see Tools for Amazon Web Services
+. API Gateway V1 and V2 APIs â If you're using a programming language that an SDK isn't available for, see the Amazon API Gateway Version 1 API Reference and Amazon API Gateway Version 2 API Reference
+. AWS Command Line Interface â For more information, see Getting Set Up with the AWS Command Line Interface in the AWS Command Line Interface User Guide
+. AWS Tools for Windows PowerShell â For more information, see Setting Up the AWS Tools for Windows PowerShell in the AWS Tools for PowerShell User Guide
+. Part of AWS serverless infrastructure Together with AWS Lambda
+, API Gateway forms the app-facing part of the AWS serverless infrastructure.

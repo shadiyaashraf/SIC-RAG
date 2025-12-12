@@ -1,0 +1,8 @@
+Choose Actions
+, Delete
+. Type confirm in the text input field and choose Delete
+. To delete the log group Open the Log groups page of the CloudWatch console. Select the function's log group (
+/aws/lambda/myLambdaFunction
+). Choose Actions
+, Delete log group(s)
+.

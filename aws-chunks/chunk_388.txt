@@ -1,0 +1,5 @@
+Happy Little API Shorts
+, which is a series of brief instructional videos. Javascript is disabled or is unavailable in your browser. To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions. Document Conventions
+API Gateway use cases ============================== Invoke REST APIs in API Gateway
+To call a deployed API, clients submit requests to the URL for the API Gateway component service for API execution, known as execute-api
+.

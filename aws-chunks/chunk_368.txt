@@ -1,0 +1,3 @@
+With asynchronous invocation
+, Lambda queues the event for processing and returns a response immediately. The InvocationType request parameter in the Invoke API determines how Lambda invokes your function. A value of RequestResponse indicates synchronous invocation, and a value of Event indicates asynchronous invocation. To invoke your function over IPv6, use Lambda's public dual-stack endpoints
+. Dual-stack endpoints support both IPv4 and IPv6.

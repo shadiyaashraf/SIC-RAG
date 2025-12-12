@@ -1,0 +1,8 @@
+Select the function's log group (
+/aws/lambda/myLambdaFunction
+). Choose Actions
+, Delete log group(s)
+. In the Delete log group(s) dialog box, choose Delete
+. To delete the execution role Open the Roles page of the AWS Identity and Access Management (IAM) console. Select the function's execution role (for example, myLambdaFunction-role-
+31exxmpl
+).

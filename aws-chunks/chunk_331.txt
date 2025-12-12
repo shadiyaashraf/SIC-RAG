@@ -1,0 +1,3 @@
+Leave architecture set to x86_64
+, and then choose Create function
+. In addition to a simple function that returns the message Hello from Lambda! , Lambda also creates an execution role for your function. An execution role is an AWS Identity and Access Management (IAM) role that grants a Lambda function permission to access AWS services and resources. For your function, the role that Lambda creates grants basic permissions to write to CloudWatch Logs.

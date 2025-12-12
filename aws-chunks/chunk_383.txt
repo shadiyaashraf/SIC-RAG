@@ -1,0 +1,5 @@
+After you complete the steps in Set up to use API Gateway
+, you can access the API Gateway console at https://console.aws.amazon.com/apigateway
+. AWS SDKs â If you're using a programming language that AWS provides an SDK for, you can use an SDK to access API Gateway. SDKs simplify authentication, integrate easily with your development environment, and provide access to API Gateway commands. For more information, see Tools for Amazon Web Services
+. API Gateway V1 and V2 APIs â If you're using a programming language that an SDK isn't available for, see the Amazon API Gateway Version 1 API Reference and Amazon API Gateway Version 2 API Reference
+.

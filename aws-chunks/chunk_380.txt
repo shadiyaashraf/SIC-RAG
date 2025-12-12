@@ -1,0 +1,4 @@
+CloudWatch access logging and execution logging, including the ability to set alarms. For more information, see Monitor REST API execution with Amazon CloudWatch metrics and Monitor WebSocket API execution with CloudWatch metrics
+. Ability to use CloudFormation templates to enable API creation. For more information, see Amazon API Gateway Resource Types Reference and Amazon API Gateway V2 Resource Types Reference
+. Support for custom domain names
+.

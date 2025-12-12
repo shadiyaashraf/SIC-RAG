@@ -1,0 +1,3 @@
+Choose a deployed API. From the main navigation pane, choose Stage
+. Under Stage details
+, choose the copy icon to copy your API's invoke URL. This URL is for the root resource of your API. To obtain an API's invoke URL for another resource in your API, expand the stage under the secondary navigation pane, and then choose a method.

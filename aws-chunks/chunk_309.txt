@@ -1,0 +1,5 @@
+You control security and access through Lambda permissions
+, using execution roles to manage what AWS services your functions can interact with and what resource policies can interact with your code. Event sources and AWS services trigger your Lambda functions, passing event data in JSON format, which your functions process (this includes event source mappings). Lambda runs your code with language-specific runtimes (like Node.js and Python) in execution environments that package your runtime, layers, and extensions. Tip
+To learn how to build serverless solutions
+, check out the Serverless Developer Guide
+. Key features Configure, control, and deploy secure applications: Environment variables modify application behavior without new code deployments.

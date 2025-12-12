@@ -1,0 +1,2 @@
+In a few minutes, you can create and deploy a function and test it in the console. As you carry out the tutorial, you'll learn some fundamental Lambda concepts, like how to pass arguments to your function using the Lambda event object
+. You'll also learn how to return log outputs from your function, and how to view your function's invocation logs in Amazon CloudWatch Logs. To keep things simple, you create your function using either the Python or Node.js runtime. With these interpreted languages, you can edit function code directly in the console's built-in code editor.

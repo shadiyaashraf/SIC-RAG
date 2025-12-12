@@ -1,0 +1,4 @@
+Function URLs create public-facing APIs and endpoints without additional services. Lambda extensions augment functions with monitoring, security, and operational tools. Related information For information on how Lambda works, see How Lambda works
+. To start using Lambda, see Create your first Lambda function
+. For a list of example applications, see Getting started with example applications and patterns
+.

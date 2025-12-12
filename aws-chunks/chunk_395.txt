@@ -1,0 +1,18 @@
+For more information, see get-rest-apis
+. aws apigateway get-rest-apis
+Replace the example rest-api-id with your rest-api-id
+, replace the example {
+stage-name} with your {
+stage-name}
+, and replace the {
+region}
+, with your Region. https://
+{
+restapi_id}
+.execute-api. {
+region}
+.amazonaws.com/
+{
+stage_name}
+/ Obtaining an API's invoke URL using the exported OpenAPI definition file of the API You can also construct the root URL by combining the host and basePath fields of an exported OpenAPI definition file of the API. For instructions on how to export your API, see Export a REST API from API Gateway
+.

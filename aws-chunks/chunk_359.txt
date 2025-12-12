@@ -1,0 +1,5 @@
+To delete the execution role Open the Roles page of the AWS Identity and Access Management (IAM) console. Select the function's execution role (for example, myLambdaFunction-role-
+31exxmpl
+). Choose Delete
+. In the Delete role dialog box, enter the role name, and then choose Delete
+. Additional resources and next steps Now that youâve created and tested a simple Lambda function using the console, take these next steps: Learn to add dependencies to your function and deploy it using a .zip deployment package.

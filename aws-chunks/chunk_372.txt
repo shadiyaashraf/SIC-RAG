@@ -1,0 +1,4 @@
+Please refer to your browser's Help pages for instructions. Document Conventions
+Tutorial: Creating a response streaming function with a function URL
+Invoke a function synchronously ============================== What is Amazon API Gateway? Amazon API Gateway is an AWS service for creating, publishing, maintaining, monitoring, and securing REST, HTTP, and WebSocket APIs at any scale. API developers can create APIs that access AWS or other web services, as well as data stored in the AWS Cloud
+. As an API Gateway API developer, you can create APIs for use in your own client applications.

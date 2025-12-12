@@ -1,0 +1,2 @@
+Lambda passes the context object to your function automatically. The context object contains information about the function invocation and execution environment. You can use the context object to output information about your function's invocation for monitoring purposes. In this example, your function uses the logGroupName parameter to output the name of its CloudWatch log group. To learn more about the Lambda context object in Node.js, see Using the Lambda context object to retrieve Node.js function information
+.

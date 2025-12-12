@@ -1,0 +1,3 @@
+The example code uses console.log statements to output the calculated area and the name of the function's CloudWatch Logs group. You can also use any logging library that writes to stdout or stderr
+. To learn more, see Log and monitor Node.js Lambda functions
+. To learn about logging in other runtimes, see the 'Building with' pages for the runtimes you're interested in. Python To modify the code in the console Choose the Code tab.

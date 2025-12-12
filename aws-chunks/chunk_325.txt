@@ -1,0 +1,4 @@
+For instructions, see Enabling AWS IAM Identity Center in the AWS IAM Identity Center User Guide
+. In IAM Identity Center, grant administrative access to a user. For a tutorial about using the IAM Identity Center directory as your identity source, see Configure user access with the default IAM Identity Center directory in the AWS IAM Identity Center User Guide
+. Sign in as the user with administrative access To sign in with your IAM Identity Center user, use the sign-in URL that was sent to your email address when you created the IAM Identity Center user. For help signing in using an IAM Identity Center user, see Signing in to the AWS access portal in the AWS Sign-In User Guide
+.

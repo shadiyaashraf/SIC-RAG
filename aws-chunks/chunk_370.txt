@@ -1,0 +1,9 @@
+us-east-1
+.api.aws
+You can also use Lambda function URLs to invoke functions over IPv6. Function URL endpoints have the following format:
+https://
+url-id
+.lambda-url. us-east-1
+.on.aws
+If the function invocation results in an error, for synchronous invocations, view the error message in the response and retry the invocation manually. For asynchronous invocations, Lambda handles retries automatically and can send invocation records to a destination
+. Javascript is disabled or is unavailable in your browser.

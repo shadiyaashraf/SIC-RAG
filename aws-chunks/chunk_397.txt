@@ -1,0 +1,4 @@
+Additionally, you can use the API Gateway console to test an API call. Test uses the API Gateway's TestInvoke feature, which allows API testing before the API is deployed. For more information, see Use the API Gateway console to test a REST API method
+. Note
+Query string parameter values in an invocation URL cannot contain %%
+. Invoking an API using a web browser If your API permits anonymous access, you can use any web browser to invoke any GET method.

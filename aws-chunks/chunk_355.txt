@@ -1,0 +1,10 @@
+This is the log group name that your function printed to the console. Scroll down and choose the Log stream for the function invocations you want to look at. You should see output similar to the following: Node.js INIT_START Runtime Version: nodejs:22.v13 Runtime Version ARN: arn:aws:lambda:us-west-2::runtime:e3aaabf6b92ef8755eaae2f4bfdcb7eb8c4536a5e044900570a42bdba7b869d9
+START RequestId: aba6c0fc-cf99-49d7-a77d-26d805dacd20 Version: $LATEST
+2024-08-23T22:04:15.809Z 5c012b0a-18f7-4805-b2f6-40912935034a INFO	The area is 42
+2024-08-23T22:04:15.810Z aba6c0fc-cf99-49d7-a77d-26d805dacd20 INFO CloudWatch log group: /aws/lambda/myLambdaFunction
+END RequestId: aba6c0fc-cf99-49d7-a77d-26d805dacd20
+REPORT RequestId: aba6c0fc-cf99-49d7-a77d-26d805dacd20 Duration: 17.77 ms Billed Duration: 18 ms Memory Size: 128 MB Max Memory Used: 67 MB Init Duration: 178.85 ms Python INIT_START Runtime Version: python:3.13.v16 Runtime Version ARN: arn:aws:lambda:us-west-2::runtime:ca202755c87b9ec2b58856efb7374b4f7b655a0ea3deb1d5acc9aee9e297b072
+START RequestId: 9d4096ee-acb3-4c25-be10-8a210f0a9d8e Version: $LATEST
+The area is 42
+[INFO]	2024-09-01T00:05:22.464Z	9315ab6b-354a-486e-884a-2fb2972b7d84	CloudWatch logs group: /aws/lambda/myLambdaFunction
+END RequestId: 9d4096ee-acb3-4c25-be10-8a210f0a9d8e REPORT RequestId: 9d4096ee-acb3-4c25-be10-8a210f0a9d8e Duration: 1.15 ms Billed Duration: 2 ms Memory Size: 128 MB Max Memory Used: 40 MB Clean up When you're finished working with the example function, delete it. You can also delete the log group that stores the function's logs, and the execution role that the console created. To delete the Lambda function Open the Functions page of the Lambda console.

@@ -1,0 +1,7 @@
+Invoke the Lambda function using the console code editor To invoke your function using the Lambda console code editor, create a test event to send to your function. The event is a JSON formatted document containing two key-value pairs with the keys "length" and "width"
+. To create the test event In the TEST EVENTS section of the console code editor, choose Create test event
+. For Event Name
+, enter myTestEvent
+. In the Event JSON section, replace the default JSON with the following: { "length": 6, "width": 7
+} Choose Save
+.

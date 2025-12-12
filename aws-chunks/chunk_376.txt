@@ -1,0 +1,11 @@
+API Gateway creates WebSocket APIs that: Adhere to the WebSocket protocol, which enables stateful, full-duplex communication between client and server. Route incoming messages based on message content. For more information about API Gateway WebSocket APIs, see Use API Gateway to create WebSocket APIs and Overview of WebSocket APIs in API Gateway
+. Topics
+Architecture of API Gateway
+Features of API Gateway
+API Gateway use cases
+Accessing API Gateway
+Part of AWS serverless infrastructure
+How to get started with Amazon API Gateway
+Amazon API Gateway concepts
+Choose between REST APIs and HTTP APIs
+Get started with the REST API console Architecture of API Gateway The following diagram shows API Gateway architecture. This diagram illustrates how the APIs you build in Amazon API Gateway provide you or your developer customers with an integrated and consistent developer experience for building AWS serverless applications.

@@ -1,0 +1,4 @@
+To keep things simple, you create your function using either the Python or Node.js runtime. With these interpreted languages, you can edit function code directly in the console's built-in code editor. With compiled languages like Java and C#, you must create a deployment package on your local build machine and upload it to Lambda. To learn about deploying functions to Lambda using other runtimes, see the links in the Additional resources and next steps section. Tip
+To learn how to build serverless solutions
+, check out the Serverless Developer Guide
+.

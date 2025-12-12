@@ -1,0 +1,3 @@
+Create a Lambda function with the console In this example, your function takes a JSON object containing two integer values labeled "length" and "width"
+. The function multiplies these values to calculate an area and returns this as a JSON string. Your function also prints the calculated area, along with the name of its CloudWatch log group. Later in the tutorial, youâll learn to use CloudWatch Logs to view records of your functionsâ invocation. To create a Hello world Lambda function with the console
+Open the Functions page of the Lambda console.

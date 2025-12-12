@@ -1,0 +1,4 @@
+For instructions, see Create a permission set in the AWS IAM Identity Center User Guide
+. Assign users to a group, and then assign single sign-on access to the group. For instructions, see Add groups in the AWS IAM Identity Center User Guide
+. Create a Lambda function with the console In this example, your function takes a JSON object containing two integer values labeled "length" and "width"
+. The function multiplies these values to calculate an area and returns this as a JSON string.

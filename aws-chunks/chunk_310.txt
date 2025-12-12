@@ -1,0 +1,4 @@
+Tip
+To learn how to build serverless solutions
+, check out the Serverless Developer Guide
+. Key features Configure, control, and deploy secure applications: Environment variables modify application behavior without new code deployments. Versions safely test new features while maintaining stable production environments. Lambda layers optimize code reuse and maintenance by sharing common components across multiple functions. Code signing enforce security compliance by ensuring only approved code reaches production systems.

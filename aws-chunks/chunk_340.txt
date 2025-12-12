@@ -1,0 +1,3 @@
+In this example, your function uses the logGroupName parameter to output the name of its CloudWatch log group. To learn more about the Lambda context object in Node.js, see Using the Lambda context object to retrieve Node.js function information
+. Logging in Lambda: With Node.js, you can use console methods like console.log and console.error to send information to your function's log. The example code uses console.log statements to output the calculated area and the name of the function's CloudWatch Logs group. You can also use any logging library that writes to stdout or stderr
+.

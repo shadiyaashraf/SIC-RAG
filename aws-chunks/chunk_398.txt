@@ -1,0 +1,3 @@
+Note
+Query string parameter values in an invocation URL cannot contain %%
+. Invoking an API using a web browser If your API permits anonymous access, you can use any web browser to invoke any GET method. Enter the complete invocation URL in the browser's address bar. For other methods or any authentication-required calls, you must specify a payload or sign the requests. You can handle these in a script behind an HTML page or in a client application using one of the AWS SDKs.

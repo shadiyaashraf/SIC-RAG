@@ -1,0 +1,5 @@
+Web applications
+: Build scalable web apps that automatically adjust to demand. Mobile backends
+: Create secure API backends for mobile and web applications. IoT backends
+: Handle web, mobile, IoT, and third-party API requests. See IoT for details. For pricing information, see AWS Lambda Pricing
+.

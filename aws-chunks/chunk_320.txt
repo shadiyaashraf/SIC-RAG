@@ -1,0 +1,3 @@
+To sign up for an AWS account
+Open https://portal.aws.amazon.com/billing/signup
+. Follow the online instructions. Part of the sign-up procedure involves receiving a phone call or text message and entering a verification code on the phone keypad. When you sign up for an AWS account, an AWS account root user is created. The root user has access to all AWS services and resources in the account.

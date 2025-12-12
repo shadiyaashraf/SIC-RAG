@@ -1,0 +1,3 @@
+For other methods or any authentication-required calls, you must specify a payload or sign the requests. You can handle these in a script behind an HTML page or in a client application using one of the AWS SDKs. Invoking an API using curl You can use a tool like curl in your terminal to call your API. The following example curl command invokes the GET method on the getUsers resource of the prod stage of an API. Linux or Macintosh curl -X GET 'https://
+b123abcde4
+.execute-api.

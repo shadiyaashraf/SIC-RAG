@@ -1,0 +1,2 @@
+See IoT for details. For pricing information, see AWS Lambda Pricing
+. How Lambda works When using Lambda, you are responsible only for your code. Lambda runs your code on a high-availability compute infrastructure and manages all the computing resources, including server and operating system maintenance, capacity provisioning, automatic scaling, and logging. Because Lambda is a serverless, event-driven compute service, it uses a different programming paradigm than traditional web applications.

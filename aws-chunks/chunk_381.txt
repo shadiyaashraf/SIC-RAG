@@ -1,0 +1,4 @@
+For more information, see Amazon API Gateway Resource Types Reference and Amazon API Gateway V2 Resource Types Reference
+. Support for custom domain names
+. Integration with AWS WAF for protecting your APIs against common web exploits. Integration with AWS X-Ray for understanding and triaging performance latencies. For a complete list of API Gateway feature releases, see Document history
+.

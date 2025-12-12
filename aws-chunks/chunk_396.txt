@@ -1,0 +1,8 @@
+{
+region}
+.amazonaws.com/
+{
+stage_name}
+/ Obtaining an API's invoke URL using the exported OpenAPI definition file of the API You can also construct the root URL by combining the host and basePath fields of an exported OpenAPI definition file of the API. For instructions on how to export your API, see Export a REST API from API Gateway
+. Invoking an API You can call your deployed API using the browser, curl, or other applications, like Postman
+. Additionally, you can use the API Gateway console to test an API call. Test uses the API Gateway's TestInvoke feature, which allows API testing before the API is deployed.

@@ -1,0 +1,6 @@
+To learn about deploying functions to Lambda using other runtimes, see the links in the Additional resources and next steps section. Tip
+To learn how to build serverless solutions
+, check out the Serverless Developer Guide
+. Prerequisites If you do not have an AWS account, complete the following steps to create one. To sign up for an AWS account
+Open https://portal.aws.amazon.com/billing/signup
+. Follow the online instructions.

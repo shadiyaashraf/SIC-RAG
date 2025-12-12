@@ -1,0 +1,1 @@
+For more information, see Who uses API Gateway? . API Gateway creates RESTful APIs that: Are HTTP-based. Enable stateless client-server communication. Implement standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE.

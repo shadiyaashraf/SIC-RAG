@@ -1,0 +1,3 @@
+Your code runs, scaling up and down automatically, with pay-per-use pricing. To get started, see Create your first function
+. You can use Lambda for: File processing
+: Process files automatically when uploaded to Amazon Simple Storage Service. See file processing examples for details. Long-running workflows: Use durable Lambda functions to build stateful, multi-step workflows that can run for up to one year.

@@ -1,0 +1,8 @@
+Select Author from scratch
+. In the Basic information pane, for Function name
+, enter myLambdaFunction
+. For Runtime
+, choose either Node.js 24 or Python 3.14
+. Leave architecture set to x86_64
+, and then choose Create function
+. In addition to a simple function that returns the message Hello from Lambda!

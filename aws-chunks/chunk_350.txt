@@ -1,0 +1,3 @@
+To learn more about the Lambda context object in Python, see Using the Lambda context object to retrieve Python function information
+. Logging in Lambda: With Python, you can use either a print statement or a Python logging library to send information to your function's log. To illustrate the difference in what's captured, the example code uses both methods. In a production application, we recommend that you use a logging library. To learn more, see Log and monitor Python Lambda functions
+.

@@ -1,0 +1,23 @@
+You should see results similar to the following: Node.js Status: Succeeded
+Test Event Name: myTestEvent Response
+"
+{
+\"area\":42}" Function Logs
+START RequestId: 5c012b0a-18f7-4805-b2f6-40912935034a Version: $LATEST
+2024-08-31T23:39:45.313Z	5c012b0a-18f7-4805-b2f6-40912935034a	INFO	The area is 42
+2024-08-31T23:39:45.331Z	5c012b0a-18f7-4805-b2f6-40912935034a	INFO	CloudWatch log group: /aws/lambda/myLambdaFunction
+END RequestId: 5c012b0a-18f7-4805-b2f6-40912935034a
+REPORT RequestId: 5c012b0a-18f7-4805-b2f6-40912935034a	Duration: 20.67 ms	Billed Duration: 21 ms	Memory Size: 128 MB	Max Memory Used: 66 MB	Init Duration: 163.87 ms Request ID
+5c012b0a-18f7-4805-b2f6-40912935034a Python Status: Succeeded
+Test Event Name: myTestEvent Response
+"
+{
+\"area\": 42}" Function Logs
+START RequestId: 2d0b1579-46fb-4bf7-a6e1-8e08840eae5b Version: $LATEST
+The area is 42
+[INFO]	2024-08-31T23:43:26.428Z	2d0b1579-46fb-4bf7-a6e1-8e08840eae5b	CloudWatch logs group: /aws/lambda/myLambdaFunction
+END RequestId: 2d0b1579-46fb-4bf7-a6e1-8e08840eae5b
+REPORT RequestId: 2d0b1579-46fb-4bf7-a6e1-8e08840eae5b	Duration: 1.42 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 39 MB	Init Duration: 123.74 ms Request ID
+2d0b1579-46fb-4bf7-a6e1-8e08840eae5b When you invoke your function outside of the Lambda console, you must use CloudWatch Logs to view your function's execution results. To view your function's invocation records in CloudWatch Logs Open the Log groups page of the CloudWatch console. Choose the log group for your function (
+/aws/lambda/myLambdaFunction
+). This is the log group name that your function printed to the console. Scroll down and choose the Log stream for the function invocations you want to look at.

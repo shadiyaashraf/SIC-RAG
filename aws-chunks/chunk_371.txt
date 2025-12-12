@@ -1,0 +1,4 @@
+For asynchronous invocations, Lambda handles retries automatically and can send invocation records to a destination
+. Javascript is disabled or is unavailable in your browser. To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions. Document Conventions
+Tutorial: Creating a response streaming function with a function URL
+Invoke a function synchronously ============================== What is Amazon API Gateway?

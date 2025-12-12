@@ -1,0 +1,4 @@
+AWS Tools for Windows PowerShell â For more information, see Setting Up the AWS Tools for Windows PowerShell in the AWS Tools for PowerShell User Guide
+. Part of AWS serverless infrastructure Together with AWS Lambda
+, API Gateway forms the app-facing part of the AWS serverless infrastructure. To learn more about getting started with serverless, see the Serverless Developer Guide
+. For an app to call publicly available AWS services, you can use Lambda to interact with required services and expose Lambda functions through API methods in API Gateway. AWS Lambda runs your code on a highly available computing infrastructure.

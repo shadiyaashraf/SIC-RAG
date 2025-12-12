@@ -1,0 +1,4 @@
+Integration with AWS X-Ray for understanding and triaging performance latencies. For a complete list of API Gateway feature releases, see Document history
+. Accessing API Gateway You can access Amazon API Gateway in the following ways: AWS Management Console â The AWS Management Console provides a web interface for creating and managing APIs. After you complete the steps in Set up to use API Gateway
+, you can access the API Gateway console at https://console.aws.amazon.com/apigateway
+. AWS SDKs â If you're using a programming language that AWS provides an SDK for, you can use an SDK to access API Gateway.

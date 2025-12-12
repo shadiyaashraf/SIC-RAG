@@ -1,0 +1,5 @@
+Enable stateless client-server communication. Implement standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE. For more information about API Gateway REST APIs and HTTP APIs, see Choose between REST APIs and HTTP APIs
+, API Gateway HTTP APIs
+, Use API Gateway to create REST APIs
+, and Develop REST APIs in API Gateway
+. API Gateway creates WebSocket APIs that: Adhere to the WebSocket protocol, which enables stateful, full-duplex communication between client and server. Route incoming messages based on message content.

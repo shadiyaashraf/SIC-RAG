@@ -1,0 +1,4 @@
+Database operations and integration examples
+: Respond to database changes and automate data workflows. See database examples for details. Scheduled and periodic tasks
+: Run automated operations on a regular schedule using EventBridge. See scheduled task examples for details. Stream processing
+: Process real-time data streams for analytics and monitoring.

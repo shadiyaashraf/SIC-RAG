@@ -1,0 +1,11 @@
+Obtaining an API's invoke URL using the AWS CLI The following procedure shows how to obtain an API's invoke URL using the AWS CLI. To obtain an API's invoke URL using the AWS CLI
+Use the following command to obtain the rest-api-id
+. This command returns all rest-api-id values in your Region. For more information, see get-rest-apis
+. aws apigateway get-rest-apis
+Replace the example rest-api-id with your rest-api-id
+, replace the example {
+stage-name} with your {
+stage-name}
+, and replace the {
+region}
+, with your Region.

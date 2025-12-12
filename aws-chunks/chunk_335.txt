@@ -1,0 +1,2 @@
+A Lambda function in Node.js can contain more than one Node.js function, but the handler function is always the entry point to your code. When your function is invoked, Lambda runs this method. When you created your Hello world function using the console, Lambda automatically set the name of the handler method for your function to handler
+. Be sure not to edit the name of this Node.js function. If you do, Lambda wonât be able to run your code when you invoke your function.

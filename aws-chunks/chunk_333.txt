@@ -1,0 +1,4 @@
+Node.js To modify the code in the console Choose the Code tab. In the console's built-in code editor, you should see the function code that Lambda created. If you don't see the index.mjs tab in the code editor, select index.mjs in the file explorer as shown on the following diagram. Paste the following code into the index.mjs tab, replacing the code that Lambda created. export const handler = async (event, context) => { const length = event.length; const width = event.width; let area = calculateArea(length, width); console.log(`The area is $
+{
+area}`); console.log('CloudWatch log group: ', context.logGroupName); let data = { "area": area, }; return JSON.stringify(data); function calculateArea(length, width) { return length * width; }
+}; In the DEPLOY section, choose Deploy to update your function's code: Understanding your function code Before you move to the next step, let's take a moment to look at the function code and understand some key Lambda concepts.

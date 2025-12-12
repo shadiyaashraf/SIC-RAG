@@ -1,0 +1,2 @@
+A function URL HTTP(S) endpoint â Use function URLs to create a dedicated HTTP(S) endpoint that you can use to invoke your function. All of these methods are direct ways to invoke your function. In Lambda, a common use case is to invoke your function based on an event that occurs elsewhere in your application. Some services can invoke a Lambda function with each new event. This is called a trigger
+.

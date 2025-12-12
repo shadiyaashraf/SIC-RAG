@@ -1,0 +1,3 @@
+Turn on multi-factor authentication (MFA) for your root user. For instructions, see Enable a virtual MFA device for your AWS account root user (console) in the IAM User Guide
+. Create a user with administrative access Enable IAM Identity Center. For instructions, see Enabling AWS IAM Identity Center in the AWS IAM Identity Center User Guide
+. In IAM Identity Center, grant administrative access to a user.

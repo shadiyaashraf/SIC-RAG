@@ -1,0 +1,4 @@
+Please refer to your browser's Help pages for instructions. Document Conventions
+Security
+Data protection ============================== What is AWS Lambda? AWS Lambda is a compute service that runs code without the need to manage servers. Your code runs, scaling up and down automatically, with pay-per-use pricing. To get started, see Create your first function
+.

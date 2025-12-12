@@ -1,0 +1,4 @@
+To enable serverless applications, API Gateway supports streamlined proxy integrations with AWS Lambda and HTTP endpoints. How to get started with Amazon API Gateway For an introduction to Amazon API Gateway, see the following: Get started with API Gateway
+, which provides a walkthrough for creating an HTTP API. Serverless land
+, which provides instructional videos. Happy Little API Shorts
+, which is a series of brief instructional videos. Javascript is disabled or is unavailable in your browser.

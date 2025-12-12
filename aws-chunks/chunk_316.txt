@@ -1,0 +1,4 @@
+To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions. Document Conventions
+How it works ============================== Create your first Lambda function
+To get started with Lambda, use the Lambda console to create a function. In a few minutes, you can create and deploy a function and test it in the console. As you carry out the tutorial, you'll learn some fundamental Lambda concepts, like how to pass arguments to your function using the Lambda event object
+.

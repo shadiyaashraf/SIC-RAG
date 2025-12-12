@@ -1,0 +1,2 @@
+For example, if your function is invoked when an object is uploaded to an Amazon Simple Storage Service (Amazon S3) bucket, the event contains the name of the bucket and the object key. In this example, youâll create an event in the console by entering a JSON formatted document with two key-value pairs. The Lambda context object: The second argument that your function takes is context
+. Lambda passes the context object to your function automatically. The context object contains information about the function invocation and execution environment.

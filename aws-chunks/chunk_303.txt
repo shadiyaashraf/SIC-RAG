@@ -1,0 +1,2 @@
+See file processing examples for details. Long-running workflows: Use durable Lambda functions to build stateful, multi-step workflows that can run for up to one year. Perfect for order processing, approval workflows, human-in-the-loop processes, and complex data pipelines that need to remember their progress. Database operations and integration examples
+: Respond to database changes and automate data workflows. See database examples for details.

@@ -1,0 +1,5 @@
+Node.js Deploy Node.js Lambda functions with .zip file archives Typescript Deploy transpiled TypeScript code in Lambda with .zip file archives Python Working with .zip file archives for Python Lambda functions Ruby Deploy Ruby Lambda functions with .zip file archives Java Deploy Java Lambda functions with .zip or JAR file archives Go Deploy Go Lambda functions with .zip file archives C# Build and deploy C# Lambda functions with .zip file archives To learn how to invoke a Lambda function using another AWS service, see Tutorial: Using an Amazon S3 trigger to invoke a Lambda function
+. Choose one of the following tutorials for more complex examples of using Lambda with other AWS services. Tutorial: Using Lambda with API Gateway
+: Create an Amazon API Gateway REST API that invokes a Lambda function. Using a Lambda function to access an Amazon RDS database
+: Use a Lambda function to write data to an Amazon Relational Database Service (Amazon RDS) database through RDS Proxy. Using an Amazon S3 trigger to create thumbnail images
+: Use a Lambda function to create a thumbnail every time an image file is uploaded to an Amazon S3 bucket.

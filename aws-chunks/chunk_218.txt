@@ -1,0 +1,3 @@
+For more information, see Create a role to delegate permissions to an AWS service in the IAM User Guide
+. Warning
+Changing the permissions for a service role might break Amazon S3 functionality. Edit service roles only when Amazon S3 provides guidance to do so. Service-linked roles for Amazon S3 Supports service-linked roles: Partial A service-linked role is a type of service role that is linked to an AWS service. The service can assume the role to perform an action on your behalf.

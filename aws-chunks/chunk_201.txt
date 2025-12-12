@@ -1,0 +1,11 @@
+The folder name is the same as the username. To grant users permission to their folders, you can specify a policy variable in the resource ARN: arn:aws:s3:::
+bucket_name
+/
+developers
+/$
+{
+aws:username}/ At runtime, when the policy is evaluated, the variable $
+{
+aws:username} in the resource ARN is substituted with the username of the person who is making the request. Policy examples for Amazon S3 To view examples of Amazon S3 identity-based policies, see Identity-based policies for Amazon S3
+. To view examples of Amazon S3 resource-based policies, see Bucket policies for Amazon S3 and Configuring IAM policies for using access points
+. Policy condition keys for Amazon S3 Supports service-specific policy condition keys: Yes Administrators can use AWS JSON policies to specify who has access to what.

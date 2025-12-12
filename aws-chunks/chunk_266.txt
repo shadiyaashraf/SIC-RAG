@@ -1,0 +1,6 @@
+AWS provides several tools and services to help you monitor Amazon S3 and your other AWS services. For example, you can monitor Amazon CloudWatch metrics for Amazon S3, particularly the PutRequests
+, GetRequests
+, 4xxErrors
+, and DeleteRequests metrics. For more information, see Monitoring metrics with Amazon CloudWatch and Logging and monitoring in Amazon S3
+. For a second example, see Example: Amazon S3 Bucket Activity
+. This example describes how to create a CloudWatch alarm that is triggered when an Amazon S3 API call is made to PUT or DELETE a bucket policy, a bucket lifecycle, or a bucket replication configuration, or to PUT a bucket ACL.

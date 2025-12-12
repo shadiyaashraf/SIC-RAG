@@ -1,0 +1,2 @@
+Consider using S3 Object Lock With S3 Object Lock, you can store objects by using a "Write Once Read Many" (WORM) model. S3 Object Lock can help prevent accidental or inappropriate deletion of data. For example, you can use S3 Object Lock to help protect your AWS CloudTrail logs. For more information, see Locking objects with Object Lock
+. Enable S3 Versioning S3 Versioning is a means of keeping multiple variants of an object in the same bucket.

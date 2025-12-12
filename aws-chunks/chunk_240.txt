@@ -1,0 +1,3 @@
+We recommend that you create bucket names that aren't predictable. Don't write code that assumes your chosen bucket name is available unless you have already created the bucket. One method for creating bucket names that aren't predictable is to append a Globally Unique Identifier (GUID) to your bucket name, for example, amazon-s3-demo-bucket-a1b2c3d4-5678-90ab-cdef-example11111
+. For more information, see Creating a bucket that uses a GUID in the bucket name
+. We recommend that you don't delete your buckets.

@@ -1,0 +1,2 @@
+To learn more about blocking SSE-C, see Blocking or unblocking SSE-C for a general purpose bucket
+. Create bucket names that aren't predictable Bucket names must be unique across all AWS accounts in all of the AWS Regions within a partition. Once an AWS account creates a bucket, that bucket name can't be used by another AWS account in the same partition until the bucket is deleted. We recommend that you create bucket names that aren't predictable. Don't write code that assumes your chosen bucket name is available unless you have already created the bucket.

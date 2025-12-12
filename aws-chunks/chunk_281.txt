@@ -1,0 +1,3 @@
+AWS operational issues with broad impact are posted on the AWS Health Dashboard - Service health
+. Operational issues are also posted to individual accounts through the AWS Health Dashboard. For more information, see the AWS Health documentation
+. Monitoring data security with managed AWS security services Several managed AWS security services can help you identify, assess, and monitor security and compliance risks for your Amazon S3 data. They can also help you protect your data from those risks.

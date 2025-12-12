@@ -1,0 +1,5 @@
+Use AWS CloudTrail AWS CloudTrail provides a record of actions taken by a user, a role, or an AWS service in Amazon S3. You can use information collected by CloudTrail to determine the following: The request that was made to Amazon S3 The IP address from which the request was made Who made the request When the request was made Additional details about the request For example, you can identify CloudTrail entries for PUT actions that affect data access, in particular PutBucketAcl
+, PutObjectAcl
+, PutBucketPolicy
+, and PutBucketWebsite
+. When you set up your AWS account, CloudTrail is enabled by default. You can view recent events in the CloudTrail console. To create an ongoing record of activity and events for your Amazon S3 buckets, you can create a trail in the CloudTrail console.

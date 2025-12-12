@@ -1,0 +1,4 @@
+AWS Config provides a managed rule (
+cloudtrail-s3-dataevents-enabled
+) that you can use to confirm that at least one CloudTrail trail is logging data events for your S3 buckets. For more information, see cloudtrail-s3-dataevents-enabled in the AWS Config Developer Guide
+. Enable AWS Config Several of the best practices listed in this topic suggest creating AWS Config rules. AWS Config helps you to assess, audit, and evaluate the configurations of your AWS resources. AWS Config monitors resource configurations so that you can evaluate the recorded configurations against the desired secure configurations.

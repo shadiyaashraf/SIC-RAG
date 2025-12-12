@@ -1,0 +1,4 @@
+We recommend allowing only encrypted connections over HTTPS (TLS) by using the aws:SecureTransport condition in your Amazon S3 bucket policies. For more information, see the example S3 bucket policy Managing access based on HTTP or HTTPS requests
+. In addition to denying HTTP requests, we recommend that you set Amazon CloudWatch alarms on tlsDetails.tlsVersion NOT EXISTS that alert you if HTTP access attempts are made on your content. For more information on how to configure Amazon CloudWatch alarms, see Creating CloudWatch alarms for CloudTrail events: examples and CloudTrail record contents in the AWS CloudTrail User Guide
+. Important
+We recommend that your application not pin Amazon S3 TLS certificates as AWS doesnât support pinning of publicly-trusted certificates.

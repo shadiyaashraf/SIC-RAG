@@ -1,0 +1,3 @@
+Similarly, look for Amazon S3 bucket access control lists (ACLs) that provide read, write, or full-access to "Everyone" or "Any authenticated AWS user." Use the ListBuckets API operation to scan all of your Amazon S3 buckets. Then use GetBucketAcl
+, GetBucketWebsite
+, and GetBucketPolicy to determine whether each bucket has compliant access controls and a compliant configuration. Use AWS Trusted Advisor to inspect your Amazon S3 implementation. Consider implementing ongoing detective controls by using the s3-bucket-public-read-prohibited and s3-bucket-public-write-prohibited managed AWS Config Rules.

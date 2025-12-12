@@ -1,0 +1,3 @@
+For more information, see Replicating objects within and across Regions
+. Note
+CRR requires both the source and destination S3 buckets to have versioning enabled. Also consider implementing ongoing detective controls by using the s3-bucket-replication-enabled managed AWS Config rule. Consider using VPC endpoints for Amazon S3 access A virtual private cloud (VPC) endpoint for Amazon S3 is a logical entity within a VPC that allows connectivity only to Amazon S3. VPC endpoints can help prevent traffic from traversing the open internet.

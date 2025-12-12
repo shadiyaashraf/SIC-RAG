@@ -1,0 +1,4 @@
+For more information, see Setting Up AWS Config with the Console in the AWS Config Developer Guide
+. When specifying the resource types to record, ensure that you include Amazon S3 resources. Important
+AWS Config managed rules only supports general purpose buckets when evaluating Amazon S3 resources. AWS Config doesnât record configuration changes for directory buckets. For more information, see AWS Config Managed Rules and List of AWS Config Managed Rules in the AWS Config Developer Guide
+.

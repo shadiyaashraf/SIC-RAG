@@ -1,0 +1,9 @@
+CloudTrail supports a subset of Amazon S3 object-level API operations, such as GetObject
+, DeleteObject
+, and PutObject
+. For more information about how CloudTrail works with Amazon S3, see Logging Amazon S3 API calls using AWS CloudTrail
+. In the Amazon S3 console, you can also configure your S3 buckets to Enabling CloudTrail event logging for S3 buckets and objects
+. AWS Config provides a managed rule (
+cloudtrail-s3-dataevents-enabled
+) that you can use to confirm that at least one CloudTrail trail is logging data events for your S3 buckets. For more information, see cloudtrail-s3-dataevents-enabled in the AWS Config Developer Guide
+.

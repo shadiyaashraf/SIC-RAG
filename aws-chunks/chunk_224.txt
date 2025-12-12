@@ -1,0 +1,4 @@
+The following best practices are general guidelines and don't represent a complete security solution. Because these best practices might not be appropriate or sufficient for your environment, treat them as helpful recommendations rather than prescriptions. Topics
+Amazon S3 security best practices
+Amazon S3 monitoring and auditing best practices
+Monitoring data security with managed AWS security services Amazon S3 security best practices The following best practices for Amazon S3 can help prevent security incidents. Disable access control lists (ACLs) S3 Object Ownership is an Amazon S3 bucket-level setting that you can use to control ownership of objects uploaded to your bucket and to disable or enable ACLs. By default, Object Ownership is set to the bucket owner enforced setting and all ACLs are disabled.

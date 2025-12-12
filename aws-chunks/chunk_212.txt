@@ -1,0 +1,7 @@
+To view a tutorial with steps for setting up ABAC, see Use attribute-based access control (ABAC) in the IAM User Guide
+. For information about resources that support ABAC in Amazon S3, see Using tags for attribute-based access control (ABAC)
+. To view example identity-based policies for limiting access to S3 Batch Operations jobs based on tags, see Controlling permissions for Batch Operations using job tags
+. ABAC and object tags In ABAC policies, objects use s3: tags instead of aws: tags. To control access to objects based on object tags, you provide tag information in the Condition element of a policy using the following tags: s3:ExistingObjectTag/
+tag-key s3:RequestObjectTagKeys s3:RequestObjectTag/
+tag-key For information about using object tags to control access, including example permission policies, see Tagging and access control policies
+.

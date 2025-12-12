@@ -1,0 +1,3 @@
+For more information, see Understanding Amazon S3 Storage Lens
+. Monitor AWS security advisories We recommend that you regularly check the security advisories posted in Trusted Advisor for your AWS account. In particular, look for warnings about Amazon S3 buckets with "open access permissions." You can do this programmatically by using describe-trusted-advisor-checks
+. Further, actively monitor the primary email address that's registered to each of your AWS accounts.

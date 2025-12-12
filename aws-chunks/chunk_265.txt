@@ -1,0 +1,5 @@
+For more information, see What are resource groups? in the AWS Resource Groups User Guide
+. Implement monitoring by using AWS monitoring tools Monitoring is an important part of maintaining the reliability, security, availability, and performance of Amazon S3 and your AWS solutions. AWS provides several tools and services to help you monitor Amazon S3 and your other AWS services. For example, you can monitor Amazon CloudWatch metrics for Amazon S3, particularly the PutRequests
+, GetRequests
+, 4xxErrors
+, and DeleteRequests metrics.

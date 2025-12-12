@@ -1,0 +1,3 @@
+For more information on how to configure Amazon CloudWatch alarms, see Creating CloudWatch alarms for CloudTrail events: examples and CloudTrail record contents in the AWS CloudTrail User Guide
+. Important
+We recommend that your application not pin Amazon S3 TLS certificates as AWS doesnât support pinning of publicly-trusted certificates. S3 automatically renews certificates and renewal can happen any time before certificate expiry. Renewing a certificate generates a new public-private key pair. If youâve pinned an S3 certificate which has been recently renewed with a new public key, you wonât be able to connect to S3 until your application uses the new certificate.

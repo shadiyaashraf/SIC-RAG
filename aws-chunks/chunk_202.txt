@@ -1,0 +1,5 @@
+To view examples of Amazon S3 resource-based policies, see Bucket policies for Amazon S3 and Configuring IAM policies for using access points
+. Policy condition keys for Amazon S3 Supports service-specific policy condition keys: Yes Administrators can use AWS JSON policies to specify who has access to what. That is, which principal can perform actions on what resources
+, and under what conditions
+. The Condition element specifies when statements execute based on defined criteria. You can create conditional expressions that use condition operators
+, such as equals or less than, to match the condition in the policy with values in the request.

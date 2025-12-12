@@ -1,0 +1,3 @@
+You can do this programmatically by using describe-trusted-advisor-checks
+. Further, actively monitor the primary email address that's registered to each of your AWS accounts. AWS uses this email address to contact you about emerging security issues that might affect you. AWS operational issues with broad impact are posted on the AWS Health Dashboard - Service health
+. Operational issues are also posted to individual accounts through the AWS Health Dashboard.

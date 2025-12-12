@@ -1,0 +1,5 @@
+To limit the server-side encryption types you can use in your general purpose buckets, you can choose to block SSE-C write requests by updating your default encryption configuration for your buckets. This bucket-level configuration blocks requests to upload objects that specify SSE-C. When SSE-C is blocked for a bucket, any PutObject
+, CopyObject
+, PostObject
+, or Multipart Upload or replication requests that specify SSE-C encryption will be rejected with an HTTP 403 AccessDenied error. To learn more about blocking SSE-C, see Blocking or unblocking SSE-C for a general purpose bucket
+. Create bucket names that aren't predictable Bucket names must be unique across all AWS accounts in all of the AWS Regions within a partition.

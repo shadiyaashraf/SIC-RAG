@@ -1,0 +1,5 @@
+When you create a trail, you can configure CloudTrail to log data events. Data events are records of resource operations performed on or within a resource. In Amazon S3, data events record object-level API activity for individual buckets. CloudTrail supports a subset of Amazon S3 object-level API operations, such as GetObject
+, DeleteObject
+, and PutObject
+. For more information about how CloudTrail works with Amazon S3, see Logging Amazon S3 API calls using AWS CloudTrail
+.

@@ -1,0 +1,5 @@
+To see a list of Amazon S3 condition keys, see Condition keys for Amazon S3 in the Service Authorization Reference
+. To learn with which actions and resources you can use a condition key, see Actions defined by Amazon S3
+. Example: Restricting object uploads to objects with a specific storage class Suppose that Account A, represented by account ID 123456789012
+, owns a bucket. The Account A administrator wants to restrict Dave
+, a user in Account A, so that Dave can upload objects to the bucket only if the object is stored in the STANDARD_IA storage class. To restrict object uploads to a specific storage class, the Account A administrator can use the s3:x-amz-storage-class condition key, as shown in the following example bucket policy.

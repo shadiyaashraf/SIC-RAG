@@ -1,0 +1,3 @@
+ACLs are similar to resource-based policies, although they do not use the JSON policy document format. Important
+A majority of modern use cases in Amazon S3 no longer require the use of ACLs. For information about using ACLs to control access in Amazon S3, see Managing access with ACLs
+. ABAC with Amazon S3 Supports ABAC (tags in policies): Partial Attribute-based access control (ABAC) is an authorization strategy that defines permissions based on attributes called tags. You can attach tags to IAM entities and AWS resources, then design ABAC policies to allow operations when the principal's tag matches the tag on the resource.

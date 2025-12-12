@@ -1,0 +1,10 @@
+bucket
+/* Policy variables for resource ARNs You can use policy variables in Amazon S3 ARNs. At policy-evaluation time, these predefined variables are replaced by their corresponding values. Suppose that you organize your bucket as a collection of folders, with one folder for each of your users. The folder name is the same as the username. To grant users permission to their folders, you can specify a policy variable in the resource ARN: arn:aws:s3:::
+bucket_name
+/
+developers
+/$
+{
+aws:username}/ At runtime, when the policy is evaluated, the variable $
+{
+aws:username} in the resource ARN is substituted with the username of the person who is making the request.

@@ -1,0 +1,8 @@
+GuardDuty can monitor different kinds of activity for your Amazon S3 resources. For example, CloudTrail management events for Amazon S3 include bucket-level operations, such as ListBuckets
+, DeleteBucket
+, and PutBucketReplication
+. CloudTrail data events for Amazon S3 include object-level operations, such as GetObject
+, ListObjects
+, and PutObject
+. If GuardDuty detects anomalous or potentially malicious activity, it generates a finding to notify you. For more information, see Amazon S3 Protection in Amazon GuardDuty in the Amazon GuardDuty User Guide
+.

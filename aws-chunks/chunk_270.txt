@@ -1,0 +1,2 @@
+You can view recent events in the CloudTrail console. To create an ongoing record of activity and events for your Amazon S3 buckets, you can create a trail in the CloudTrail console. For more information, see Logging data events in the AWS CloudTrail User Guide
+. When you create a trail, you can configure CloudTrail to log data events. Data events are records of resource operations performed on or within a resource.

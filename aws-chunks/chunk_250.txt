@@ -1,0 +1,3 @@
+Amazon S3 provides multiple client-side encryption options. For more information, see Protecting data by using client-side encryption
+. Enforce encryption of data in transit You can use HTTPS (TLS) to help prevent potential attackers from eavesdropping on or manipulating network traffic by using person-in-the-middle or similar attacks. We recommend allowing only encrypted connections over HTTPS (TLS) by using the aws:SecureTransport condition in your Amazon S3 bucket policies. For more information, see the example S3 bucket policy Managing access based on HTTP or HTTPS requests
+.

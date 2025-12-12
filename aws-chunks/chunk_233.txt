@@ -1,0 +1,2 @@
+For more information, see Blocking public access to your Amazon S3 storage
+. Identify Amazon S3 bucket policies that allow a wildcard identity such as "Principal": "*" (which effectively means "anyone"). Also look for policies that allow a wildcard action "*" (which effectively allows the user to perform any action in the Amazon S3 bucket). Similarly, look for Amazon S3 bucket access control lists (ACLs) that provide read, write, or full-access to "Everyone" or "Any authenticated AWS user." Use the ListBuckets API operation to scan all of your Amazon S3 buckets.

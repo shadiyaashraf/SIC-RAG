@@ -1,0 +1,4 @@
+Policy examples for Amazon S3 To view examples of Amazon S3 identity-based policies, see Identity-based policies for Amazon S3
+. To view examples of Amazon S3 resource-based policies, see Bucket policies for Amazon S3 and Configuring IAM policies for using access points
+. ACLs in Amazon S3 Supports ACLs: Yes In Amazon S3, access control lists (ACLs) control which AWS accounts have permissions to access a resource. ACLs are similar to resource-based policies, although they do not use the JSON policy document format. Important
+A majority of modern use cases in Amazon S3 no longer require the use of ACLs.

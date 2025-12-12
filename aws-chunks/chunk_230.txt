@@ -1,0 +1,3 @@
+These ACLs include the bucket-owner-full-control canned ACL or equivalent forms of this ACL that are expressed in XML. Existing applications that support bucket owner full control ACLs see no impact. PUT requests that contain other ACLs (for example, custom grants to certain AWS accounts) fail and return an HTTP status code 400 (Bad Request) with the error code AccessControlListNotSupported
+. For more information, see Controlling ownership of objects and disabling ACLs for your bucket
+. Ensure that your Amazon S3 buckets use the correct policies and are not publicly accessible Unless you explicitly require anyone on the internet to be able to read or write to your S3 bucket, make sure that your S3 bucket is not public.

@@ -1,0 +1,3 @@
+Each Amazon S3 condition key maps to the same name request header allowed by the API on which the condition can be set. Amazon S3âspecific condition keys dictate the behavior of the same name request headers. For example, the condition key s3:VersionId used to grant conditional permission for the s3:GetObjectVersion permission defines behavior of the versionId query parameter that you set in a GET Object request. To see a list of Amazon S3 condition keys, see Condition keys for Amazon S3 in the Service Authorization Reference
+. To learn with which actions and resources you can use a condition key, see Actions defined by Amazon S3
+.

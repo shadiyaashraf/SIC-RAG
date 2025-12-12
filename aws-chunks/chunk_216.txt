@@ -1,0 +1,2 @@
+S3 Access Grants also uses FAS. After you create an access grant to your S3 data for a particular identity, the grantee requests a temporary credential from S3 Access Grants. S3 Access Grants obtains a temporary credential for the requester from AWS STS and vends the credential to the requester. For more information, see Request access to Amazon S3 data through S3 Access Grants
+. Service roles for Amazon S3 Supports service roles: Yes A service role is an IAM role that a service assumes to perform actions on your behalf.

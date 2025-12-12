@@ -1,0 +1,3 @@
+The Condition element specifies when statements execute based on defined criteria. You can create conditional expressions that use condition operators
+, such as equals or less than, to match the condition in the policy with values in the request. To see all AWS global condition keys, see AWS global condition context keys in the IAM User Guide
+. Each Amazon S3 condition key maps to the same name request header allowed by the API on which the condition can be set. Amazon S3âspecific condition keys dictate the behavior of the same name request headers.

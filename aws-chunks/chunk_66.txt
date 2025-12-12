@@ -1,0 +1,2 @@
+A bucket is a container for objects. To store your data in Amazon S3, you first create a bucket and specify a bucket name and AWS Region. Then, you upload your data to that bucket as objects in Amazon S3. Each object has a key (or key name
+), which is the unique identifier for the object within the bucket. S3 provides features that you can configure to support your specific use case.

@@ -1,0 +1,4 @@
+For more information, see Analyzing Documents
+. Detecting and analyzing text in invoices and receipts. For more information, see Analyzing Invoices and Receipts
+. Detecting and analyzing text in government identity documents. For more information, see Analyzing Identity Documents
+.

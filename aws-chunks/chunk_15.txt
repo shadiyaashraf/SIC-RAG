@@ -1,0 +1,3 @@
+Detecting text only. For more information, see Detecting Text
+. Detecting and analyzing relationships between text. For more information, see Analyzing Documents
+. Detecting and analyzing text in invoices and receipts.

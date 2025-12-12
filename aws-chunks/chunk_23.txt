@@ -1,0 +1,10 @@
+Document Conventions
+Step 3: Get Started Using the AWS CLI and AWS SDK API
+Detecting Text ============================== Quotas in Amazon Textract
+The following sections provide information about quotas, formerly referred to as limits, when using Amazon Textract. There are two kinds of quotas. Set quotas
+, which can be viewed in the section Set Quotas in Amazon Textract
+, cannot be changed. Default quotas
+, discussed in the section Default Quotas
+, can be viewed or changed via the Service quotas console
+. You can also view the current Amazon Textract default quotas on the Amazon Textract endpoints and service quotas
+.

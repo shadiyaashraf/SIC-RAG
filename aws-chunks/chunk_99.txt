@@ -1,0 +1,2 @@
+Access points simplify managing data access at scale for shared datasets in Amazon S3. Each access point has its own access point policy. You can configure Block Public Access settings for each access point attached to a bucket. To restrict Amazon S3 data access to a private network, you can also configure any access point to accept requests only from a virtual private cloud (VPC). For more information about access points for general purpose buckets, see Managing access to shared datasets with access points
+.

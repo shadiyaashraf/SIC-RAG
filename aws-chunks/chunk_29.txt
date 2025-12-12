@@ -1,0 +1,2 @@
+How do I get started with Amazon Bedrock? Amazon Bedrock pricing
+Key terminology What can I do with Amazon Bedrock? You can use Amazon Bedrock to do the following: Experiment with prompts and configurations â Submit prompts and generate responses with model inference by sending prompts using different configurations and foundation models to generate responses. You can use the API or the text, image, and chat playgrounds in the console to experiment in a graphical interface. When you're ready, set up your application to make requests to the InvokeModel APIs.

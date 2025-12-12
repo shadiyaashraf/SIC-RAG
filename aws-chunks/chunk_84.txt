@@ -1,0 +1,6 @@
+After you create a bucket, you cannot change the name of the bucket or its Region. Bucket names must follow the following bucket naming rules: General purpose bucket naming rules
+Directory bucket naming rules
+Table bucket naming rules Buckets also: Organize the Amazon S3 namespace at the highest level. For general purpose buckets, this namespace is S3
+. For directory buckets, this namespace is s3express
+. For table buckets, this namespace is s3tables
+.

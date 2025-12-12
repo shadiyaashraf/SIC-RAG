@@ -1,0 +1,3 @@
+Using Amazon Bedrock, you can easily experiment with and evaluate top foundation models for your use cases, privately customize them with your data using techniques such as fine-tuning and Retrieval Augmented Generation (RAG), and build agents that execute tasks using your enterprise systems and data sources. With Amazon Bedrock's serverless experience, you can get started quickly, privately customize foundation models with your own data, and easily and securely integrate and deploy them into your applications using AWS tools without having to manage any infrastructure. Topics
+What can I do with Amazon Bedrock? How do I get started with Amazon Bedrock? Amazon Bedrock pricing
+Key terminology What can I do with Amazon Bedrock?

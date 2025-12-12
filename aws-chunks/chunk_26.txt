@@ -1,0 +1,3 @@
+To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions. Document Conventions
+API Reference
+AnalyzeDocument ============================== Amazon Textract ============================== What is Amazon Bedrock? Amazon Bedrock is a fully managed service that makes high-performing foundation models (FMs) from leading AI companies and Amazon available for your use through a unified API. You can choose from a wide range of foundation models to find the model that is best suited for your use case.

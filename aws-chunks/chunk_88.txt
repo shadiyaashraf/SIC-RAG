@@ -1,0 +1,4 @@
+Every object is contained in a bucket. For example, if the object named photos/puppy.jpg is stored in the amzn-s3-demo-bucket general purpose bucket in the US West (Oregon) Region, then it is addressable by using the URL https://amzn-s3-demo-bucket.s3.us-west-2.amazonaws.com/photos/puppy.jpg
+. For more information, see Accessing a Bucket
+. An object is uniquely identified within a bucket by a key (name) and a version ID (if S3 Versioning is enabled on the bucket). For more information about objects, see Amazon S3 objects overview
+.

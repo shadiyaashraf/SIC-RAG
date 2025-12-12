@@ -1,0 +1,4 @@
+To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions. Document Conventions
+Warning
+Set Quotas ============================== Actions
+The following actions are supported: AnalyzeDocument AnalyzeExpense AnalyzeID CreateAdapter CreateAdapterVersion DeleteAdapter DeleteAdapterVersion DetectDocumentText GetAdapter GetAdapterVersion GetDocumentAnalysis GetDocumentTextDetection GetExpenseAnalysis GetLendingAnalysis GetLendingAnalysisSummary ListAdapters ListAdapterVersions ListTagsForResource StartDocumentAnalysis StartDocumentTextDetection StartExpenseAnalysis StartLendingAnalysis TagResource UntagResource UpdateAdapter Javascript is disabled or is unavailable in your browser. To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.

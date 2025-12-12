@@ -1,0 +1,3 @@
+For more information, see Analyzing Lending Documents
+. Amazon Textract provides you with synchronous operations for processing single-page documents with near real-time responses. For more information, see Processing Documents Synchronously
+. Amazon Textract also provides asynchronous operations that you can use to process larger, multipage documents. Asynchronous responses aren't in real time.

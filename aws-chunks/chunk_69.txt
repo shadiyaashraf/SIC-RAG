@@ -1,0 +1,3 @@
+Each type of bucket provides a unique set of features for different use cases. General purpose buckets â General purpose buckets are recommended for most use cases and access patterns and are the original S3 bucket type. A general purpose bucket is a container for objects stored in Amazon S3, and you can store any number of objects in a bucket and across all storage classes (except for S3 Express One Zone), so you can redundantly store objects across multiple Availability Zones. For more information, see Creating, configuring, and working with Amazon S3 general purpose buckets
+. Note
+By default, all general purpose buckets are private.

@@ -1,0 +1,2 @@
+We recommend that you start with Amazon Bedrock by doing the following: Familiarize yourself with the terms and concepts that Amazon Bedrock uses. Understand how AWS charges you for using Amazon Bedrock. Try the Get started with Amazon Bedrock tutorials. In the tutorials, you learn how to use the playgrounds in Amazon Bedrock console
+. You also learn and how to use the AWS SDK to call Amazon Bedrock API operations.

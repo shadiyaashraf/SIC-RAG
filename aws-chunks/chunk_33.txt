@@ -1,0 +1,3 @@
+Note
+The Latency Optimized Inference feature is in preview release for Amazon Bedrock and is subject to change. To learn about Regions that support Amazon Bedrock and the foundation models and features that Amazon Bedrock supports, see Supported foundation models in Amazon Bedrock and Feature support by AWS Region in Amazon Bedrock
+. How do I get started with Amazon Bedrock? We recommend that you start with Amazon Bedrock by doing the following: Familiarize yourself with the terms and concepts that Amazon Bedrock uses. Understand how AWS charges you for using Amazon Bedrock.

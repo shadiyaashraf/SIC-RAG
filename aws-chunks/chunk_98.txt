@@ -1,0 +1,3 @@
+For example, you can control access to groups of objects that begin with a common prefix or end with a given extension, such as .html
+. S3 access points Amazon S3 access points are named network endpoints with dedicated access policies that describe how data can be accessed using that endpoint. Access points are attached to an underlying data source, such as a general purpose bucket, directory bucket, or a FSx for OpenZFS volume, that you can use to perform S3 object operations, such as GetObject and PutObject
+. Access points simplify managing data access at scale for shared datasets in Amazon S3. Each access point has its own access point policy.

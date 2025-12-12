@@ -1,0 +1,3 @@
+To change a limit, select the Amazon Textract option in the Service Quotas console. You can use the Quotas Calculator in the Amazon Textract console to determine your quota requirements. To learn more about default quotas that can be changed, see Information on Default Quotas in Amazon Textract
+. Other quotas, like file size and languages supported by Amazon Textract, cannot be changed. For more information on set quotas, see Set Quotas in Amazon Textract
+.

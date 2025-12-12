@@ -1,0 +1,4 @@
+For more information, see Working with S3 Tables and table buckets
+. Note
+All table buckets and tables are private and can't be made public. These resources can only be accessed by users who are explicitly granted access. To grant access, you can use IAM resource-based policies for table buckets and tables, and IAM identity-based policies for users and roles. For more information, see Security for S3 Tables
+.

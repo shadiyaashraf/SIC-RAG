@@ -1,0 +1,2 @@
+You can control access to general purpose buckets at the bucket, prefix (folder), or object tag level. For more information, see Access control in Amazon S3
+. Directory buckets â Recommended for low-latency use cases and data-residency use cases. By default, you can create up to 100 directory buckets in your AWS account, with no limit on the number of objects that you can store in a directory bucket. Directory buckets organize objects into hierarchical directories (prefixes) instead of the flat storage structure of general purpose buckets.

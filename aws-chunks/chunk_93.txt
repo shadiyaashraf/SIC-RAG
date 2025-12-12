@@ -1,0 +1,5 @@
+For more information, see Retaining multiple versions of objects with S3 Versioning
+. Version ID When you enable S3 Versioning in a bucket, Amazon S3 generates a unique version ID for each object added to the bucket. Objects that already existed in the bucket at the time that you enable versioning have a version ID of null
+. If you modify these (or any other) objects with other operations, such as CopyObject and PutObject
+, the new objects get a unique version ID. For more information, see Retaining multiple versions of objects with S3 Versioning
+.

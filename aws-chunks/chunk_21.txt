@@ -1,0 +1,7 @@
+With Amazon Textract Custom Queries, you can use your own documents and train an adapter to customize the base model, keeping complete control over your proprietary documents. See Customizing your Queries Responses for more information. For information regarding the results returned by Analyze Lending, see Analyze Lending Response Objects . Topics
+Detecting Text
+Analyzing Documents
+Analyzing Invoices and Receipts
+Analyzing Identity Documents
+Analyzing Lending Documents
+Customizing Outputs Javascript is disabled or is unavailable in your browser. To use the Amazon Web Services Documentation, Javascript must be enabled.

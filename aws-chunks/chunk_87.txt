@@ -1,0 +1,3 @@
+The metadata is a set of name-value pairs that describe the object. These pairs include some default metadata, such as the date last modified, and standard HTTP metadata, such as Content-Type
+. You can also specify custom metadata at the time that the object is stored. Every object is contained in a bucket. For example, if the object named photos/puppy.jpg is stored in the amzn-s3-demo-bucket general purpose bucket in the US West (Oregon) Region, then it is addressable by using the URL https://amzn-s3-demo-bucket.s3.us-west-2.amazonaws.com/photos/puppy.jpg
+.

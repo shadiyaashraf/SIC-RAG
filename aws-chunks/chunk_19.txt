@@ -1,0 +1,3 @@
+Amazon Textract also provides asynchronous operations that you can use to process larger, multipage documents. Asynchronous responses aren't in real time. For more information, see Processing Documents Asynchronously
+. Amazon Textract provides you with a workflow to automatically classify lending document pages and route them to existing solutions. For more information see Analyzing Lending Documents
+.

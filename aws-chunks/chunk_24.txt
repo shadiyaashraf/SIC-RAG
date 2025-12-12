@@ -1,0 +1,5 @@
+Default quotas
+, discussed in the section Default Quotas
+, can be viewed or changed via the Service quotas console
+. You can also view the current Amazon Textract default quotas on the Amazon Textract endpoints and service quotas
+. Javascript is disabled or is unavailable in your browser. To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.

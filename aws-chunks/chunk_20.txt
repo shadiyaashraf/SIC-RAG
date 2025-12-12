@@ -1,0 +1,2 @@
+Amazon Textract provides you with a workflow to automatically classify lending document pages and route them to existing solutions. For more information see Analyzing Lending Documents
+. Amazon Textract lets you customize the output of its pretrained Queries feature. With Amazon Textract Custom Queries, you can use your own documents and train an adapter to customize the base model, keeping complete control over your proprietary documents. See Customizing your Queries Responses for more information.

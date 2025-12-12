@@ -1,0 +1,3 @@
+For directory buckets, this namespace is s3express
+. For table buckets, this namespace is s3tables
+. Identify the account responsible for storage and data transfer charges. Serve as the unit of aggregation for usage reporting. Objects Objects are the fundamental entities stored in Amazon S3.

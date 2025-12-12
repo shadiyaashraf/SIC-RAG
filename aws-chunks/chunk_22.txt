@@ -1,0 +1,10 @@
+Topics
+Detecting Text
+Analyzing Documents
+Analyzing Invoices and Receipts
+Analyzing Identity Documents
+Analyzing Lending Documents
+Customizing Outputs Javascript is disabled or is unavailable in your browser. To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions. Document Conventions
+Step 3: Get Started Using the AWS CLI and AWS SDK API
+Detecting Text ============================== Quotas in Amazon Textract
+The following sections provide information about quotas, formerly referred to as limits, when using Amazon Textract. There are two kinds of quotas.

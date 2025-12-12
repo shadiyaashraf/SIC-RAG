@@ -1,0 +1,5 @@
+Every object in Amazon S3 can be uniquely addressed through the combination of the web service endpoint, bucket name, key, and optionally, a version. For example, in the URL https://
+amzn-s3-demo-bucket
+.s3.us-west-2.amazonaws.com/photos/puppy.jpg
+, amzn-s3-demo-bucket is the name of the bucket and photos/puppy.jpg is the key. For more information about object keys, see Naming Amazon S3 objects
+. S3 Versioning You can use S3 Versioning to keep multiple variants of an object in the same bucket. With S3 Versioning, you can preserve, retrieve, and restore every version of every object stored in your buckets.

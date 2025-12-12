@@ -1,0 +1,2 @@
+S3 Versioning You can use S3 Versioning to keep multiple variants of an object in the same bucket. With S3 Versioning, you can preserve, retrieve, and restore every version of every object stored in your buckets. You can easily recover from both unintended user actions and application failures. For more information, see Retaining multiple versions of objects with S3 Versioning
+. Version ID When you enable S3 Versioning in a bucket, Amazon S3 generates a unique version ID for each object added to the bucket.

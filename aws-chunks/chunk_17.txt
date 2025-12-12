@@ -1,0 +1,3 @@
+Detecting and analyzing text in government identity documents. For more information, see Analyzing Identity Documents
+. Detecting and analyzing text in lending documents. For more information, see Analyzing Lending Documents
+. Amazon Textract provides you with synchronous operations for processing single-page documents with near real-time responses.

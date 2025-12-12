@@ -1,0 +1,3 @@
+To learn more about creating directory buckets in Local Zones, see Data residency workloads
+. Note
+Directory buckets have all public access disabled by default. This behavior can't be changed. You can't grant access to objects stored in directory buckets. You can grant access only to your directory buckets.

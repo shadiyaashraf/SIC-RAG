@@ -1,0 +1,11 @@
+This documentation helps you understand how to apply the shared responsibility model when using Amazon Bedrock. The following topics show you how to configure Amazon Bedrock to meet your security and compliance objectives. You also learn how to use other AWS services that help you to monitor and secure your Amazon Bedrock resources. Topics
+Data protection
+Identity and access management for Amazon Bedrock
+Cross-account access to Amazon S3 bucket for custom model import jobs
+Compliance validation for Amazon Bedrock
+Incident response in Amazon Bedrock
+Resilience in Amazon Bedrock
+Infrastructure security in Amazon Bedrock
+Cross-service confused deputy prevention
+Configuration and vulnerability analysis in Amazon Bedrock
+Prompt injection security Javascript is disabled or is unavailable in your browser. To use the Amazon Web Services Documentation, Javascript must be enabled.

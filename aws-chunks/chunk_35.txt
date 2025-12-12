@@ -1,0 +1,2 @@
+In the tutorials, you learn how to use the playgrounds in Amazon Bedrock console
+. You also learn and how to use the AWS SDK to call Amazon Bedrock API operations. Read the documentation for the features that you want to include in your application. Javascript is disabled or is unavailable in your browser. To use the Amazon Web Services Documentation, Javascript must be enabled.

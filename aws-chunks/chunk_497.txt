@@ -1,0 +1,2 @@
+We recommend that you use IAM access last used information to update and remove access keys safely. For more information, see Update access keys
+. There are specific use cases that require long-term credentials with IAM users in AWS. Some of the use cases include the following: Workloads that cannot use IAM roles â You might run a workload from a location that needs to access AWS. In some situations, you can't use IAM roles to provide temporary credentials, such as for WordPress plugins.

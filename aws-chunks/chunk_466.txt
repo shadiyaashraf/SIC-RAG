@@ -1,0 +1,4 @@
+Regardless of the combination of multiple statements and multiple policies, AWS evaluates your policies the same way. For example, the following policy has three statements, each of which defines a separate set of permissions within a single account. The statements define the following: The first statement, with an Sid (Statement ID) of FirstStatement
+, lets the user with the attached policy change their own password. The Resource element in this statement is "
+*
+" (which means "all resources"). But in practice, the ChangePassword API operation (or equivalent change-password CLI command) affects only the password for the user who makes the request.

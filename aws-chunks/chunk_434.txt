@@ -1,0 +1,4 @@
+For that reason, you must attach both a trust policy and an identity-based policy to an IAM role. Trust policies define which principal entities (accounts, users, roles, and federated users) can assume the role. To learn how IAM roles are different from other resource-based policies, see Cross account resource access in IAM
+. To see which other services support resource-based policies, see AWS services that work with IAM
+. To learn more about resource-based policies, see Identity-based policies and resource-based policies
+.

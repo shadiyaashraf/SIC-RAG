@@ -1,0 +1,18 @@
+Please refer to your browser's Help pages for instructions. Document Conventions
+Access management
+Managed policies and inline policies ============================== Security best practices in IAM
+To help secure your AWS resources, follow these best practices for AWS Identity and Access Management (IAM). Topics
+Require human users to use federation with an identity provider to access AWS using temporary credentials
+Require workloads to use temporary credentials with IAM roles to access AWS
+Require multi-factor authentication (MFA)
+Update access keys when needed for use cases that require long-term credentials
+Follow best practices to protect your root user credentials
+Apply least-privilege permissions
+Get started with AWS managed policies and move toward least-privilege permissions
+Use IAM Access Analyzer to generate least-privilege policies based on access activity
+Regularly review and remove unused users, roles, permissions, policies, and credentials
+Use conditions in IAM policies to further restrict access
+Verify public and cross-account access to resources with IAM Access Analyzer
+Use IAM Access Analyzer to validate your IAM policies to ensure secure and functional permissions
+Establish permissions guardrails across multiple accounts
+Use permissions boundaries to delegate permissions management within an account Require human users to use federation with an identity provider to access AWS using temporary credentials Human users, also known as human identities, are the people, administrators, developers, operators, and consumers of your applications. They must have an identity to access your AWS environments and applications. Human users that are members of your organization are also known as workforce identities.

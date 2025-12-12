@@ -1,0 +1,2 @@
+Require multi-factor authentication (MFA) We recommend using IAM roles for human users and workloads that access your AWS resources so that they use temporary credentials. However, for scenarios in which you need an IAM user or root user in your account, require MFA for additional security. With MFA, users have a device that generates a response to an authentication challenge. Each user's credentials and device-generated response are required to complete the sign-in process. For more information, see AWS Multi-factor authentication in IAM
+.

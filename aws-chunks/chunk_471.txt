@@ -1,0 +1,7 @@
+The policy allows members of a specific AWS account to perform any Amazon S3 actions in the bucket named amzn-s3-demo-bucket
+. It allows any action that can be performed on a bucket or the objects within it. (Because the policy grants trust only to the account, individual users in the account must still be granted permissions for the specified Amazon S3 actions.) JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "1", "Effect": "Allow", "Principal": { "AWS": [ "arn:aws:iam::
+111122223333
+:root" ] }, "Action": "s3:*", "Resource": [ "arn:aws:s3:::amzn-s3-demo-bucket", "arn:aws:s3:::amzn-s3-demo-bucket/*" ] } ]
+} To view example policies for common scenarios, see Example IAM identity-based policies
+. Grant least privilege When you create IAM policies, follow the standard security advice of granting least privilege
+, or granting only the permissions required to perform a task.

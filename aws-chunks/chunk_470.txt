@@ -1,0 +1,7 @@
+If the user is not MFA-authenticated, this Condition evaluates to false. In that case, the third statement in this policy does not apply and the user does not have access to the amzn-s3-demo-bucket-confidential-data bucket. JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "FirstStatement", "Effect": "Allow", "Action": ["iam:ChangePassword"], "Resource": "*" }, { "Sid": "SecondStatement", "Effect": "Allow", "Action": "s3:ListAllMyBuckets", "Resource": "*" }, { "Sid": "ThirdStatement", "Effect": "Allow", "Action": [ "s3:List*", "s3:Get*" ], "Resource": [ "arn:aws:s3:::amzn-s3-demo-bucket-confidential-data", "arn:aws:s3:::amzn-s3-demo-bucket-confidential-data/*" ], "Condition": {
+"Bool": {
+"aws:MultiFactorAuthPresent": "true"}} } ]
+} Examples of JSON policy syntax The following identity-based policy allows the implied principal to list a single Amazon S3 bucket named amzn-s3-demo-bucket
+: JSON { "Version":"2012-10-17", "Statement": { "Effect": "Allow", "Action": "s3:ListBucket", "Resource": "arn:aws:s3:::amzn-s3-demo-bucket" }
+} The following resource-based policy can be attached to an Amazon S3 bucket. The policy allows members of a specific AWS account to perform any Amazon S3 actions in the bucket named amzn-s3-demo-bucket
+. It allows any action that can be performed on a bucket or the objects within it.

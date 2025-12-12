@@ -1,0 +1,3 @@
+The Resource element in this statement is "
+*
+" (which means "all resources"). But in practice, the ChangePassword API operation (or equivalent change-password CLI command) affects only the password for the user who makes the request. The second statement lets the user list all the Amazon S3 buckets in their AWS account. The Resource element in this statement is "*" (which means "all resources"). But because policies don't grant access to resources in other accounts, the user can list only the buckets in their own AWS account.

@@ -1,0 +1,3 @@
+To learn more, see IAM Access Analyzer policy generation
+. Use last accessed information â Another feature that can help with least privilege is last accessed information
+. View this information on the Access Advisor tab on the IAM console details page for an IAM user, group, role, or policy. Last accessed information also includes information about the actions that were last accessed for some services, such as Amazon EC2, IAM, Lambda, and Amazon S3. If you sign in using AWS Organizations management account credentials, you can view service last accessed information in the AWS Organizations section of the IAM console.

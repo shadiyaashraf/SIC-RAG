@@ -1,0 +1,3 @@
+To see which other services support resource-based policies, see AWS services that work with IAM
+. To learn more about resource-based policies, see Identity-based policies and resource-based policies
+. To learn whether principals in accounts outside of your zone of trust (trusted organization or account) have access to assume your roles, see What is IAM Access Analyzer? . IAM permissions boundaries A permissions boundary is an advanced feature in which you set the maximum permissions that an identity-based policy can grant to an IAM entity.

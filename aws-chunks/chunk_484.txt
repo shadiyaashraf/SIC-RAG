@@ -1,0 +1,4 @@
+For more information, see the following policy topics for individual services, which provide examples of how to write policies for service-specific resources. Using resource-based policies for DynamoDB in the Amazon DynamoDB Developer Guide Bucket policies for Amazon S3 in the Amazon Simple Storage Service User Guide Access Control List (ACL) overview in the Amazon Simple Storage Service User Guide Javascript is disabled or is unavailable in your browser. To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions. Document Conventions
+Access management
+Managed policies and inline policies ============================== Security best practices in IAM
+To help secure your AWS resources, follow these best practices for AWS Identity and Access Management (IAM).

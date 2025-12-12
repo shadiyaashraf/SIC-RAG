@@ -1,0 +1,4 @@
+You can create role session and pass session policies programmatically using the AssumeRole
+, AssumeRoleWithSAML
+, or AssumeRoleWithWebIdentity API operations. You can pass a single JSON inline session policy document using the Policy parameter. You can use the PolicyArns parameter to specify up to 10 managed session policies. For more information about creating a role session, see Permissions for temporary security credentials
+. When you create an AWS STS federated user principal session, you use the access keys of the IAM user to programmatically call the GetFederationToken API operation.

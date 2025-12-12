@@ -1,0 +1,4 @@
+us-west-2
+.amazonaws.com/prod/getUsers" Javascript is disabled or is unavailable in your browser. To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions. Document Conventions
+Access binary files in Lambda using an API Gateway API
+Use the console to test a REST API method ============================== What is IAM? AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources.

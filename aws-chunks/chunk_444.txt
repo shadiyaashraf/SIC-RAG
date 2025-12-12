@@ -1,0 +1,3 @@
+The permissions for a session are the intersection of the identity-based policies for the IAM entity (user or role) used to create the session and the session policies. Permissions can also come from a resource-based policy. An explicit deny in any of these policies overrides the allow. You can create role session and pass session policies programmatically using the AssumeRole
+, AssumeRoleWithSAML
+, or AssumeRoleWithWebIdentity API operations. You can pass a single JSON inline session policy document using the Policy parameter.

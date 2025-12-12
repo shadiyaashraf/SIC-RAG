@@ -1,0 +1,6 @@
+JSON { "Version":"2012-10-17", "Statement": [ { "Sid": "1", "Effect": "Allow", "Principal": { "AWS": [ "arn:aws:iam::
+111122223333
+:root" ] }, "Action": "s3:*", "Resource": [ "arn:aws:s3:::amzn-s3-demo-bucket", "arn:aws:s3:::amzn-s3-demo-bucket/*" ] } ]
+} To view example policies for common scenarios, see Example IAM identity-based policies
+. Grant least privilege When you create IAM policies, follow the standard security advice of granting least privilege
+, or granting only the permissions required to perform a task. Determine what users and roles need to do and then craft policies that allow them to perform only those tasks. Start with a minimum set of permissions and grant additional permissions as necessary. Doing so is more secure than starting with permissions that are too lenient and then trying to tighten them later.

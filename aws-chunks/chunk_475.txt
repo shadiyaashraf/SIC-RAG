@@ -1,0 +1,7 @@
+IAM provides several options to help you refine the permissions that you grant. Understand access level groupings â You can use access level groupings to understand the level of access that a policy grants. Policy actions are classified as List
+, Read
+, Write
+, Permissions management
+, or Tagging
+. For example, you can choose actions from the List and Read access levels to grant read-only access to your users. To learn how to use policy summaries to understand access level permissions, see Access levels in policy summaries
+.

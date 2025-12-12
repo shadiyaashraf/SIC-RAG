@@ -1,0 +1,3 @@
+For more information about creating a role session, see Permissions for temporary security credentials
+. When you create an AWS STS federated user principal session, you use the access keys of the IAM user to programmatically call the GetFederationToken API operation. You must also pass session policies. The resulting session's permissions are the intersection of the identity-based policy and the session policy. For more information about creating a federated user session, see Requesting credentials through a custom identity broker
+.

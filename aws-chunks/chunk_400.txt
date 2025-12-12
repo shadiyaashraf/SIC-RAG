@@ -1,0 +1,7 @@
+The following example curl command invokes the GET method on the getUsers resource of the prod stage of an API. Linux or Macintosh curl -X GET 'https://
+b123abcde4
+.execute-api. us-west-2
+.amazonaws.com/prod/getUsers' Windows curl -X GET "https://
+b123abcde4
+.execute-api. us-west-2
+.amazonaws.com/prod/getUsers" Javascript is disabled or is unavailable in your browser. To use the Amazon Web Services Documentation, Javascript must be enabled.

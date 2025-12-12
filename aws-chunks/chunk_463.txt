@@ -1,0 +1,2 @@
+Condition (Optional) â Specify the circumstances under which the policy grants permission. To learn about these and other more advanced policy elements, see IAM JSON policy element reference
+. Multiple statements and multiple policies If you want to define more than one permission for an entity (user or role), you can use multiple statements in a single policy. You can also attach multiple policies. If you try to define multiple permissions in a single statement, your policy might not grant the access that you expect.

@@ -1,0 +1,3 @@
+For more information about MFA in IAM Identity Center see Multi-factor authentication in the AWS IAM Identity Center User Guide
+. Update access keys when needed for use cases that require long-term credentials Where possible, we recommend relying on temporary credentials instead of creating long-term credentials such as access keys. However, for scenarios in which you need IAM users with programmatic access and long-term credentials, we recommend that you update the access keys when needed, such as when an employee leaves your company. We recommend that you use IAM access last used information to update and remove access keys safely. For more information, see Update access keys
+.

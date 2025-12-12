@@ -1,0 +1,2 @@
+Inline policies â Policies that you add directly to a single user, group, or role. Inline policies maintain a strict one-to-one relationship between a policy and an identity. They are deleted when you delete the identity. To learn how to choose between managed and inline policies, see Choose between managed policies and inline policies
+. Resource-based policies Resource-based policies are JSON policy documents that you attach to a resource such as an Amazon S3 bucket.

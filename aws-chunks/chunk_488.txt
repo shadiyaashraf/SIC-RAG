@@ -1,0 +1,3 @@
+For centralized access management, we recommend that you use AWS IAM Identity Center (IAM Identity Center) to manage access to your accounts and permissions within those accounts. You can manage your user identities with IAM Identity Center, or manage access permissions for user identities in IAM Identity Center from an external identity provider. For more information, see What is AWS IAM Identity Center in the AWS IAM Identity Center User Guide
+. For more information about roles, see Roles terms and concepts
+. Require workloads to use temporary credentials with IAM roles to access AWS A workload is a collection of resources and code that delivers business value, such as an application or backend process.

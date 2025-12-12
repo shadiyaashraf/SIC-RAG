@@ -1,0 +1,3 @@
+IAM Access Analyzer external access analysis is offered at no additional charge. However, you will incur charges for unused access analysis and customer policy checks. For a complete list of charges and prices for IAM Access Analyzer, see IAM Access Analyzer pricing
+. For information about the pricing of other AWS products, see the Amazon Web Services pricing page
+. Integration with other AWS services IAM is integrated with many AWS services.

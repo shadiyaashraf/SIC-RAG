@@ -1,0 +1,3 @@
+IAM Access Analyzer reviews your AWS CloudTrail logs and generates a policy template that contains the permissions that have been used by the entity in your specified time frame. You can use the template to create a managed policy with fine-grained permissions and then attach it to the IAM entity. That way, you grant only the permissions that the user or role needs to interact with AWS resources for your specific use case. To learn more, see IAM Access Analyzer policy generation
+. Use last accessed information â Another feature that can help with least privilege is last accessed information
+.

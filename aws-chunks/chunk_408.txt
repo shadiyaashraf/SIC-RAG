@@ -1,0 +1,5 @@
+Tip
+AWS Training and Certification provides a 10-minute video introduction to IAM:
+Introduction to AWS Identity and Access Management
+. Service availability IAM, like many other AWS services, is eventually consistent
+. IAM achieves high availability by replicating data across multiple servers within Amazon's data centers around the world. If a request to change some data is successful, the change is committed and safely stored. However, the change must be replicated across IAM, which can take some time.

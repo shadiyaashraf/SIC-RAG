@@ -1,0 +1,4 @@
+For more information about using the visual editor, see Define custom IAM permissions with customer managed policies and Edit IAM policies
+. When you create or edit a JSON policy, IAM can perform policy validation to help you create an effective policy. IAM identifies JSON syntax errors, while IAM Access Analyzer provides additional policy checks with recommendations to help you further refine your policies. To learn more about policy validation, see IAM policy validation
+. To learn more about IAM Access Analyzer policy checks and actionable recommendations, see IAM Access Analyzer policy validation
+.

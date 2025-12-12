@@ -1,0 +1,3 @@
+To learn more about policy validation, see IAM policy validation
+. To learn more about IAM Access Analyzer policy checks and actionable recommendations, see IAM Access Analyzer policy validation
+. JSON policy document structure As illustrated in the following figure, a JSON policy document includes these elements: Optional policy-wide information at the top of the document One or more individual statements Each statement includes information about a single permission. If a policy includes multiple statements, AWS applies a logical OR across the statements when evaluating them. If multiple policies apply to a request, AWS applies a logical OR across all of those policies when evaluating them.

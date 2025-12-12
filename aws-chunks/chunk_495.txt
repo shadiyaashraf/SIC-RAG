@@ -1,0 +1,3 @@
+Each user's credentials and device-generated response are required to complete the sign-in process. For more information, see AWS Multi-factor authentication in IAM
+. If you use IAM Identity Center for centralized access management for human users, you can use the IAM Identity Center MFA capabilities when your identity source is configured with the IAM Identity Center identity store, AWS Managed Microsoft AD, or AD Connector. For more information about MFA in IAM Identity Center see Multi-factor authentication in the AWS IAM Identity Center User Guide
+. Update access keys when needed for use cases that require long-term credentials Where possible, we recommend relying on temporary credentials instead of creating long-term credentials such as access keys.
